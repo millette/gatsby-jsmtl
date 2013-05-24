@@ -1,3 +1,8 @@
+docpad.js-montreal.org
+======================
+
+Docpad-based version of the js-montreal.org website
+
 # [Twitter Bootstrap](http://twitter.github.com/bootstrap/) skeleton for [DocPad](https://github.com/bevry/docpad)
 Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
 
@@ -40,3 +45,4 @@ If you are wanting to close-source your website, we'd suggest using the followin
 Other included things such as themes and libraries are likely already licensed by their own invidual licenses, so be sure to respect their licenses too.
 
 Thanks, the DocPad team loves you.
+=======
