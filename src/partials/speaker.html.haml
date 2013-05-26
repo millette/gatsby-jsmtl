@@ -1,17 +1,17 @@
 .row
   .span7
-    %h4 #{s["title"]}
+    %h4= speaker["title"]
     %h5
-      %a{ :href => s["url"], :target => "_new" }#{s["name"]}
+      %a{href: speaker["url"], target: "_new"}= speaker["name"]
 .row
   .synopsis
     .span2
-      %a{ :href => s["url"], :target => "_new"}
-        %img.gravatar{ :src => gravaturl(s["email"]) }
+      %a{href: speaker["url"], target: "_new"}
+        %img.gravatar{ src: gravaturl(speaker["email"]) }
     .span5<
       %p<
-        = s["synopsis"]
+        = speaker["synopsis"]
       %ul.speaker-links.unstyled
-        - s["links"].each do |l|
+        :each link in speaker.links
           %li<
-            %a{ :href => l["url"], :target => "_new" }= l["title"]
+            %a{href: link["url"], target: "_new"}= link["title"]

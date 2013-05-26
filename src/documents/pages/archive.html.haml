@@ -5,9 +5,4 @@ tags: ['archive','page']
 pageOrder: 2
 ```
 - var meetups = getMeetups()
-.row
-  .span16
-    %h6 Previous meetups
-:each meetup in meetups
-  %div
-    = meetup.title
+= partial('meetups', {partial: partial, meetups: meetups, gravaturl: gravaturl})

@@ -78,6 +78,10 @@ docpadConfig = {
 		getMeetups: ->
 			JSON.parse(@include('../data/meetups.json'))
 
+		gravaturl: (email) ->
+			#MD5.digest(email)
+			"http://www.gravatar.com/avatar/#{email}"
+
 
 	# =================================
 	# Collections

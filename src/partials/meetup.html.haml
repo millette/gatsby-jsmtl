@@ -1,19 +1,20 @@
-- first  = meetup["speakers"].first
-- second = meetup["speakers"].last
+- first  = meetup.speakers[0]
+- second = meetup.speakers[1]
+- console.log(meetup.on)
 - date   = Date.parse( meetup["on"] )
 .row
   .span16.blurb
     .when
-      = "#{date.strftime("%B")} #{date.strftime("%Y")}"
+      -#= "#{date.strftime("%B")} #{date.strftime("%Y")}"
     %h2<
       = meetup["title"]
-    - if meetup["blurb"]
+    :if meetup["blurb"]
       %p= meetup["blurb"]
 .row.meetup
   .span8
     .speaker
-      = haml :speaker, :locals => { :s => first }, :layout => false
+      = partial('speaker', { speaker: first, gravaturl: gravaturl })
   .span8
     .speaker
-      - if first != second
-        = haml :speaker, :locals => { :s => second }, :layout => false
+      :if second != undefined
+        = partial('speaker', { speaker: second, gravaturl: gravaturl })
