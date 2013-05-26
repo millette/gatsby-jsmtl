@@ -1,6 +1,5 @@
 - first  = meetup.speakers[0]
 - second = meetup.speakers[1]
-- console.log(meetup.on)
 - date   = Date.parse( meetup["on"] )
 .row
   .span16.blurb
@@ -13,8 +12,8 @@
 .row.meetup
   .span8
     .speaker
-      = partial('speaker', { speaker: first, gravaturl: gravaturl })
+      = helpers.partial('speaker', { speaker: first, helpers: helpers })
   .span8
     .speaker
       :if second != undefined
-        = partial('speaker', { speaker: second, gravaturl: gravaturl })
+        = helpers.partial('speaker', { speaker: second, helpers: helpers })

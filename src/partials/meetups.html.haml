@@ -1,6 +1,7 @@
+- console.log(helpers)
 .row
   .span16
     %h6 Previous meetups
 :each meetup in meetups
-  = partial('meetup', {partial: partial, meetup: meetup, gravaturl: gravaturl})
+  = helpers.partial('meetup', {meetup: meetup, helpers: helpers})
   %hr

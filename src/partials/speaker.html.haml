@@ -7,7 +7,7 @@
   .synopsis
     .span2
       %a{href: speaker["url"], target: "_new"}
-        %img.gravatar{ src: gravaturl(speaker["email"]) }
+        %img.gravatar{ src: helpers.gravaturl(speaker["email"]) }
     .span5<
       %p<
         = speaker["synopsis"]
