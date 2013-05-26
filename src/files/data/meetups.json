@@ -479,7 +479,7 @@
    "on": "20120214",
    "blurb": "Yeah, we know it's on Valentine's day. Show your love for the world's most misunderstood programming language.",
    "speakers": [{
-      "title": " /^[FfC](?:(?:re?a|\*{1,2}|.*)c?)king$/ Regex",
+      "title": " /^[FfC](?:(?:re?a|\\*{1,2}|.*)c?)king$/ Regex",
       "email": "mazesoul@gmail.com",
       "name": "Laurent Villeneuve",
       "url": "https://github.com/mazesoul",

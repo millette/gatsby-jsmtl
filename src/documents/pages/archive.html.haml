@@ -1,0 +1,13 @@
+```
+title: Archive
+layout: page
+tags: ['archive','page']
+pageOrder: 2
+```
+- var meetups = getMeetups()
+.row
+  .span16
+    %h6 Previous meetups
+:each meetup in meetups
+  %div
+    = meetup.title

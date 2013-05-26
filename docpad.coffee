@@ -75,6 +75,9 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		getMeetups: ->
+			JSON.parse(@include('../data/meetups.json'))
+
 
 	# =================================
 	# Collections

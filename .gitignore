@@ -2,3 +2,4 @@ node_modules/
 out/
 src/files/vendor/twitter-bootstrap
 .DS_Store
+docpad.sublime-project
