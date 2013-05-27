@@ -25,12 +25,19 @@ Simple and flexible HTML, CSS, and Javascript for popular user interface compone
 1. Start hacking away by modifying the `src` directory
 
 
-## I'm getting 'Undefined is not a function' rendering the Archive page
+## I'm getting 'undefined is not a function' on the Archive page
 
-Open up node_modules/docpad-plugin-haml/out/haml.plugin.js and change line
-22 (the call to haml.render) with the line below:
+Open up node_modules/docpad-plugin-haml/out/haml.plugin.js and change this:
 
-  opts.content = haml(opts.content)(templateData);
+	opts.content = haml.render(opts.content, {
+		locals: templateData
+	});
+
+into this:
+
+	opts.content = haml(opts.content)(templateData);
+
+
 
 ## I'm getting EMFILE errors
 
