@@ -1,6 +1,6 @@
 ```
 title: About
-layout: page
+layout: default
 tags: ['intro','page']
 pageOrder: 1
 objectives:
@@ -12,9 +12,10 @@ objectives:
 ```
 .row
   .span6.blurb
+    %h2= document.title
     %p JS-MONTREAL is a user group run by volunteers. We meet in borrowed spaces, graciously provided by different companies and organisations. Our purpose is to provide a place where our members can have a good time talking about programming and meet other like minded folks. We talk shop, network and geek out.
   .span6
-    %h6 Objectives
+    %h5.objectives-title Objectives
     %ul.objectives.bigger
       :each p in document.objectives
         %li= p
