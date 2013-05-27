@@ -76,7 +76,8 @@ docpadConfig = {
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
 		getMeetups: ->
-			JSON.parse(@include('../data/meetups.json'))
+			meetups = JSON.parse(@include('../data/meetups.json')).sort((a, b)-> b.num - a.num)
+			#sort reverse chronologically
 
 		gravaturl: (email) ->
 			#MD5.digest(email)
