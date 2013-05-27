@@ -38,6 +38,7 @@ into this:
 	opts.content = haml(opts.content)(templateData);
 
 
+Restart DocPad as plugins are cached and must be reloaded.
 
 ## I'm getting EMFILE errors
 
