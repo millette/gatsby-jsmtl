@@ -1,10 +1,10 @@
 - first  = meetup.speakers[0]
 - second = meetup.speakers[1]
-- date   = helpers.parseDate( meetup["on"] )
+- date   = helpers.formatDate(helpers.parseDate( meetup["on"]), "MMM YYYY" )
 .row
   .span16.blurb
     .when
-      -#= "#{date.strftime("%B")} #{date.strftime("%Y")}"
+      = date
     %h2<
       = meetup["title"]
     :if meetup["blurb"]

@@ -1,3 +1,8 @@
+# Using moment for date formatting.
+moment = require('moment')
+# for computing the md5 for gravtar url.
+crypto = require('crypto')
+
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
@@ -80,14 +85,16 @@ docpadConfig = {
 			meetups = JSON.parse(@include('../data/meetups.json')).sort((a, b)-> b.num - a.num)
 
 		gravaturl: (email) ->
-			#this is unfinished.
-			#MD5.digest(email)
-			"http://www.gravatar.com/avatar/#{email}"
+			hash = crypto.createHash 'md5'
+			hash.update email, 'utf8'
+			"http://www.gravatar.com/avatar/#{hash.digest('hex')}"
 
 		parseDate: (date) ->
-			dateParts = /(\d{4})(\d{2})(\d{2})/.exec date
-			date = [dateParts[2], dateParts[3], dateParts[1]].join '/'
+			date = date.split(/(\d{4})(\d{2})(\d{2})/).join('-')
 			new Date(date)
+
+		formatDate: (date, fmtStr) ->
+			return moment(date).format(fmtStr)
 
 
 	# =================================
