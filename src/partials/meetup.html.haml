@@ -1,6 +1,6 @@
 - first  = meetup.speakers[0]
 - second = meetup.speakers[1]
-- date   = Date.parse( meetup["on"] )
+- date   = helpers.parseDate( meetup["on"] )
 .row
   .span16.blurb
     .when

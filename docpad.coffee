@@ -76,12 +76,18 @@ docpadConfig = {
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
 		getMeetups: ->
-			meetups = JSON.parse(@include('../data/meetups.json')).sort((a, b)-> b.num - a.num)
 			#sort reverse chronologically
+			meetups = JSON.parse(@include('../data/meetups.json')).sort((a, b)-> b.num - a.num)
 
 		gravaturl: (email) ->
+			#this is unfinished.
 			#MD5.digest(email)
 			"http://www.gravatar.com/avatar/#{email}"
+
+		parseDate: (date) ->
+			dateParts = /(\d{4})(\d{2})(\d{2})/.exec date
+			date = [dateParts[2], dateParts[3], dateParts[1]].join '/'
+			new Date(date)
 
 
 	# =================================
