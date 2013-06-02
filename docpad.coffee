@@ -90,10 +90,13 @@ docpadConfig = {
 			hash = crypto.createHash 'md5'
 			hash.update email, 'utf8'
 			"http://www.gravatar.com/avatar/#{hash.digest('hex')}"
+
 		booked: (meetup) ->
-			return meetup if meetup.speakers.length > 1 else 0
+			return if meetup.speakers.length > 1 then meetup else 0
+
 		past: (date) ->
-			return ''
+      return if (moment(date).unix() < new Date().getTime()) then true else false
+
 		parseDate: (date) ->
 			date = date.split(/(\d{4})(\d{2})(\d{2})/).join('-')
 			new Date(date)

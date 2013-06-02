@@ -4,31 +4,30 @@ layout: default
 - var meetup = getMeetups().shift()
 - first  = meetup.speakers[0]
 - second = meetup.speakers[1]
--# date   = Date.parse( meetup["on"] )
+- meetupDate = parseDate(meetup['on'])
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 
 .row
   .span8.blurb
     .when
-      -# = "#{date.strftime("%B")} #{date.strftime("%Y")}"
+      = formatDate(meetupDate, "MMM YYYY")
     %h2<
       = meetup["title"]
     :if meetup["blurb"]
       %p= meetup["blurb"]
   .span3
     .register<
-      %a{href: "http://twitter.com/jsmontreal", class: "twitter-follow-button", data-button: "grey", data-text-color: "#FFFFFF", data-link-color: "#049CDB", data-show-count: "false"} Follow @jsmontreal
-      %script{src: "http://platform.twitter.com/widgets.js", type: "text/javascript"}
+      %a{href: 'http://twitter.com/jsmontreal', class: 'twitter-follow-button', data-button: 'grey', data-text-color: '#FFFFFF', data-link-color: '#049CDB', data-show-count: 'false'} Follow @jsmontreal
+      %script{src: 'http://platform.twitter.com/widgets.js', type: 'text/javascript'}
       %p.attention<
-        - if (past(meetup)) {
+        - if (past(meetupDate)) {
         Our last meetup was on
         - } else {
         Next meetup is happening
         - }
         %br<
-        %b
-        -# #{Date.parse( meetup["on"] ).strftime("%A, %B %d")}
-        :if !past(meetup.on)
+        %b= formatDate(meetupDate, 'dddd, MMM DD')
+        :if !past(meetupDate)
           %br<
           %b @ 18:45
         %br
@@ -38,7 +37,6 @@ layout: default
           %input{type: 'email', name: 'email', class: 'input-medium', placeholder: 'email'}
           %input{type: 'hidden', name: 'goto', value: ''}
           %input{type: 'hidden', name: 'iehack', value: '&#9760;'}
-          %br
           %br
           %input{type: 'submit', class: 'btn btn-success', value: 'Join'}
         %p
@@ -54,7 +52,7 @@ layout: default
       - } else {
       %br
       %br
-      %a.btn.info{href: "mailto:contact@js-montreal.org "}
+      %a.btn.info{href: 'mailto:contact@js-montreal.org '}
         Looks like there's space for one more presentation!
       - }
 -# unless Model::SPECIAL.nil?
