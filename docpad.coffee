@@ -82,13 +82,18 @@ docpadConfig = {
 
 		getMeetups: ->
 			#sort reverse chronologically
-			meetups = JSON.parse(@include('../data/meetups.json')).sort((a, b)-> b.num - a.num)
+			meetups = JSON.parse(@include('/data/meetups.json')).sort((a, b)-> b.num - a.num)
+			# Remove the first meetup.
+			return meetups
 
 		gravaturl: (email) ->
 			hash = crypto.createHash 'md5'
 			hash.update email, 'utf8'
 			"http://www.gravatar.com/avatar/#{hash.digest('hex')}"
-
+		booked: (meetup) ->
+			return meetup if meetup.speakers.length > 1 else 0
+		past: (date) ->
+			return ''
 		parseDate: (date) ->
 			date = date.split(/(\d{4})(\d{2})(\d{2})/).join('-')
 			new Date(date)
