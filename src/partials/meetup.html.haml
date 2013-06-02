@@ -10,10 +10,10 @@
     :if meetup["blurb"]
       %p= meetup["blurb"]
 .row.meetup
-  .span8
+  .span6
     .speaker
       = helpers.partial('speaker', { speaker: first, helpers: helpers })
-  .span8
+  .span6
     .speaker
       :if second != undefined
         = helpers.partial('speaker', { speaker: second, helpers: helpers })
