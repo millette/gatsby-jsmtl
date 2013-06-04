@@ -35,10 +35,25 @@
 
   <!-- Styles -->
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2161575-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+             + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 <body>
   <!-- Markup -->
-  <div class="navbar navbar-fixed-top">
+  <div class="navbar navbar-top">
     <div class="navbar-inner">
       <div class="container">
         <a class="brand" href="/">js-montreal</a>
@@ -59,62 +74,65 @@
   </div>
   <footer>
     <div class="container">
-      <div class="row">
+      <div class="row-fluid">
         <div class="span4">
           <h5><a href="/">js-montreal.org</a></h5>
           <p>Our goal is to bring the MTL JS development community together and promote the use and understanding of the language, inside and outside the browser.</p>
           <p>Powered by
           <a href="http://docpad.org">Docpad</a><br/><a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a> </p>
         </div>
-        <div class="span3">
-          <h4>Contact</h4>
-          <ul class="unstyled contact">
-            <li class="facebook"><a href="https://www.facebook.com/groups/253683934748003/">facebook group</a></li>
-            <li class="linkedin"><a href="http://www.linkedin.com/groups?gid=2514289">js-montreal.org</a></li>
-            <li class="twitter"><a href="http://www.twitter.com/jsmontreal">@jsmontreal</a></li>
-            <li class="email"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=contact@js-montreal.org" target="_blank">Email us</a></li>
-          </ul>
-        </div>
-        <div class="span3">
-          <h4>User Groups</h4>
-          <ul class="unstyled">
-            <li>
-              <a href="http://www.montrealonrails.com/">montreal.rb</a>
-            </li>
-            <li>
-              <a href="http://www.phpquebec.org/">php quebec</a>
-            </li>
-            <li>
-              <a href="http://montrealpython.org/">mtl python</a>
-            </li>
-            <li>
-              <a href="http://www.bonjure.org/">bonjure (clojure)</a>
-            </li>
-            <li>
-              <a href="http://cocoaheadsmtl.com/">cocoaheads mtl</a>
-            </li>
-          </ul>
-        </div>
-        <div class="span2">
-          <h4>Special thanks</h4>
-          <ul class="unstyled">
-            <li>
-              <a href="http://cakemail.com">Cakemail</a>
-            </li>
-            <li>
-              <a href="http://crim.ca">CRIM</a>
-            </li>
-            <li>
-              <a href="http://bloomdigital.com">Bloom Digital</a>
-            </li>
-            <li>
-              for graciously offering us a space to hold our meetups.
-            </li>
-          </ul>
+        <div class="span8">
+          <div class="row-fluid">
+            <div class="span4">
+              <h4>Contact</h4>
+              <ul class="unstyled contact">
+                <li class="facebook"><a href="https://www.facebook.com/groups/253683934748003/">facebook group</a></li>
+                <li class="linkedin"><a href="http://www.linkedin.com/groups?gid=2514289">js-montreal.org</a></li>
+                <li class="twitter"><a href="http://www.twitter.com/jsmontreal">@jsmontreal</a></li>
+                <li class="email"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=contact@js-montreal.org" target="_blank">Email us</a></li>
+              </ul>
+            </div>
+            <div class="span4">
+              <h4>User Groups</h4>
+              <ul class="unstyled">
+                <li>
+                  <a href="http://www.montrealonrails.com/">montreal.rb</a>
+                </li>
+                <li>
+                  <a href="http://www.phpquebec.org/">php quebec</a>
+                </li>
+                <li>
+                  <a href="http://montrealpython.org/">mtl python</a>
+                </li>
+                <li>
+                  <a href="http://www.bonjure.org/">bonjure (clojure)</a>
+                </li>
+                <li>
+                  <a href="http://cocoaheadsmtl.com/">cocoaheads mtl</a>
+                </li>
+              </ul>
+            </div>
+            <div class="span4">
+              <h4>Special thanks</h4>
+              <ul class="unstyled">
+                <li>
+                  <a href="http://cakemail.com">Cakemail</a>
+                </li>
+                <li>
+                  <a href="http://crim.ca">CRIM</a>
+                </li>
+                <li>
+                  <a href="http://bloomdigital.com">Bloom Digital</a>
+                </li>
+                <li>
+                  for graciously offering us a space to hold our meetups.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <p align=center></p>
   </footer>
   <!-- Scripts -->
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>

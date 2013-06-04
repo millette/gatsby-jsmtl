@@ -33,6 +33,7 @@ h2 {
 }
 
 footer {
+  min-height: 250px;
   #gradient > .vertical(#FAFAFA, #ddd);
   border-top: 1px solid #eee;
   padding-top: 1em;
@@ -50,7 +51,6 @@ footer {
 #content {
   background-color: #fafafa;
   min-height: 500px;
-  margin-top: 60px;
 }
 
 ul.contact {
@@ -100,16 +100,16 @@ ul.contact {
 //   }
 // }
 
-.register {
-  background-color: #eaeaea;
-  border: solid 1px #fff;
-  border-radius: 0 0 5px 5px;
-  padding: 20px;
-  margin-top: -23px;
-  position: relative;
-  #gradient > .vertical(#EAEAEA, #FAFAFA);
+.hero-unit {
+  padding: 30px;
+  .register {
+    background-color: #eaeaea;
+    border: solid 1px transparent;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    #gradient > .vertical(#EAEAEA, #FAFAFA);
+  }
 }
-
 .meetup {
   margin-top: 1em;
 }

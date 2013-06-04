@@ -3,44 +3,41 @@ layout: default
 ```
 - var meetup = getMeetups().shift()
 - first  = meetup.speakers[0]
-- second = meetup.speakers[1]
+- second = meetup.speakers[1] || meetup.speakers[0]
 - meetupDate = parseDate(meetup['on'])
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
-
-.row
-  .span8.blurb
-    .when
-      = formatDate(meetupDate, "MMM YYYY")
-    %h2<
-      = meetup["title"]
-    :if meetup["blurb"]
-      %p= meetup["blurb"]
-  .span3
-    .register<
-      %a{href: 'http://twitter.com/jsmontreal', class: 'twitter-follow-button', data-button: 'grey', data-text-color: '#FFFFFF', data-link-color: '#049CDB', data-show-count: 'false'} Follow @jsmontreal
-      %script{src: 'http://platform.twitter.com/widgets.js', type: 'text/javascript'}
-      %p.attention<
-        - if (past(meetupDate)) {
-        Our last meetup was on
-        - } else {
-        Next meetup is happening
-        - }
-        %br<
-        %b= formatDate(meetupDate, 'dddd, MMM DD')
-        :if !past(meetupDate)
-          %br<
-          %b @ 18:45
-        %br
-        %br
-        %strong Join our members list
-        %form{method: 'get', accept-charset: 'UTF-8', name: 'oi_form', action: 'http://cmtd1.com/oi/1/4b73ed74e3eb76d8147a15ecbc336fdb'}
-          %input{type: 'email', name: 'email', class: 'input-medium', placeholder: 'email'}
-          %input{type: 'hidden', name: 'goto', value: ''}
-          %input{type: 'hidden', name: 'iehack', value: '&#9760;'}
-          %br
-          %input{type: 'submit', class: 'btn btn-success', value: 'Join'}
+.hero-unit
+  .row-fluid
+    .span9
+      %small= formatDate(meetupDate, "MMM YYYY")
+      %h2= meetup["title"]
+      :if meetup["blurb"]
+        %p= meetup["blurb"]
+    .span3
+      .register
+        %a{href: 'http://twitter.com/jsmontreal', class: 'twitter-follow-button', data-button: 'grey', data-text-color: '#FFFFFF', data-link-color: '#049CDB', data-show-count: 'false'} Follow @jsmontreal
+        %script{src: 'http://platform.twitter.com/widgets.js', type: 'text/javascript'}
         %p
-          &rarr; to be notified of our events.
+          - if (past(meetupDate)) {
+          Our last meetup was on 
+          %b= formatDate(meetupDate, 'MMM DD')
+          - } else {
+          Next meetup is happening on 
+          %b= formatDate(meetupDate, 'MMM DD')
+          - }
+          :if !past(meetupDate)
+            %br
+            %b @ 19:00
+          %br
+          %small Sign up
+          %form{method: 'get', accept-charset: 'UTF-8', name: 'oi_form', action: 'http://cmtd1.com/oi/1/4b73ed74e3eb76d8147a15ecbc336fdb'}
+            %input{type: 'email', name: 'email', class: 'input-medium', placeholder: 'email'}
+            %input{type: 'hidden', name: 'goto', value: ''}
+            %input{type: 'hidden', name: 'iehack', value: '&#9760;'}
+            %br
+            %input{type: 'submit', class: 'btn btn-success', value: 'Join'}
+          %p
+            &rarr; to be notified of our events.
 .row.meetup
   .span6
     .speaker
@@ -55,15 +52,3 @@ layout: default
       %a.btn.info{href: 'mailto:contact@js-montreal.org '}
         Looks like there's space for one more presentation!
       - }
--# unless Model::SPECIAL.nil?
-  -# = Model::SPECIAL
-
-#members{ style: 'display: none;' }
-  Members:
-  %select#sigs
-    %option
-  %p.credits
--# Here goes the signature plugins
--# %script{ :src => "src/signatures/signatures.js", :type => "text/javascript" }
--# %script{ :src => "src/signatures/example.js", :type => "text/javascript" }
--# %script{ :src => "src/signatures/bruno-c.js", :type => "text/javascript" }
