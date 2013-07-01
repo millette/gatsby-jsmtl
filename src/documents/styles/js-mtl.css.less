@@ -1,7 +1,3 @@
-// /*
-//   makes gravatar images the right size for the columns
-
-// */
 @import "twitter-bootstrap.css.less";
 
 html {
@@ -12,8 +8,9 @@ body {
   background-color: #fafafa;
 }
 
-h1 {
-  font-size: 58px;
+#content {
+  background-color: #fafafa;
+  min-height: 500px;
 }
 
 h2 {
@@ -21,26 +18,154 @@ h2 {
   margin : 0px 0px 0.5em 0px;
 }
 
-footer {
-  min-height: 250px;
-  #gradient > .vertical(#FAFAFA, #ddd);
-  border-top: 1px solid #eee;
-  padding-top: 1em;
-  h4 {
-    color: lightGray;
-    text-shadow : 0px 1px 0.5px white;
+// The blurb section is description of the meetup, with the date and title
+.blurb {
+  p {
+    font-size: 120%;
+    line-height: 160%;
+    margin-bottom: 2em;
+    border-left: 10px solid @grayLighter;
+    padding-left: 10px;
   }
-  ul {
-    li {
-      margin-bottom: 4px;
-    }
+
+  .when {
+    margin-left: -5px;
+    font-size: 14px;
+    color: #777;
+    font-weight: bold;
+    line-height: 18px;
+  }
+
+  h2 {
+    margin-left: -5px;
+    margin-top: -5px;
   }
 }
 
-#content {
-  background-color: #fafafa;
-  min-height: 500px;
+// Container for the large font top of the page areas
+.top-unit {
+  .hero-unit;
+
+  padding: 0px;
+  margin-bottom: 0;
+  background-color: transparent;
+
+  .register {
+    background-color: #FAFAFA;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    padding: 16px;
+    #gradient > .vertical(#FAFAFA, #f2f2f2);
+  }
 }
+
+// Meetup container is two columns with 'speaker' inside
+.meetup {
+  margin-bottom: 1em;
+  margin-top: 3em;
+}
+
+.speaker {
+  @img-width: 100px;
+  @img-padding: 15px;
+
+  margin-bottom: 30px;
+
+  img.gravatar {
+    width: @img-width;
+    float: left;
+  }
+
+  h4 {
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(51, 51, 51);
+    white-space: nowrap;
+  }
+
+  h5, h4 {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.4;
+  }
+
+  .synopsis {
+    margin-top: 1em;
+
+    p {
+      margin-left: @img-width + @img-padding;
+      margin-top: -5px;
+    }
+  }
+
+  .speaker-links {
+    margin-left: @img-width + @img-padding;
+  }
+}
+
+.about {
+  #content .row:last-child {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.foto {
+  img {
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+
+
+  p {
+    font-size: @baseFontSize;
+    padding-top: 4px;
+    text-align: center;
+    }
+}
+
+.bigger {
+  font-size: 110%;
+}
+
+.grey-uppercase-title {
+  text-transform: uppercase;
+  color: #BFBFBF;
+}
+
+h2 {
+  color: @blue;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+
+#map small a {
+  color: #71C4EB !important;
+  float: right;
+  border-bottom: none;
+}
+
+ol.directions {
+  font-size: 120%;
+  line-height: 1.2;
+}
+
+ul.objectives {
+  font-size: @baseFontSize;
+  li {
+    color: #404040;
+    margin-bottom: 5px;
+  }
+}
+
+// Contact list w/ icons in footer
 
 ul.contact {
   li {
@@ -64,163 +189,18 @@ ul.contact {
   }
 }
 
-.when {
-  font-size: 16px;
-  color: #777;
-  font-weight: bold;
-  line-height: 18px;
-}
-
-.hero-unit {
-  background-color: transparent;
-  padding: 0px;
-
-  .register {
-    background-color: #FAFAFA;
-    border: 1px solid #d4d4d4;
-    border-radius: 5px;
-    padding: 16px;
-    #gradient > .vertical(#FAFAFA, #f2f2f2);
-  }
-}
-
-.meetup {
-  margin-bottom: 1em;
-}
-
-.speaker {
-  @img-width: 100px;
-  @img-padding: 15px;
-  
-  margin-bottom: 30px;
-
-  img.gravatar {
-    width: @img-width;
-    float: left;
-  }
-
+footer {
+  min-height: 250px;
+  #gradient > .vertical(#FAFAFA, #f2f2f2);
+  border-top: 1px solid #d4d4d4;
+  padding-top: 1em;
   h4 {
-    font-size: 21px;
-    font-weight: normal;
-    white-space: nowrap;
+    color: #d4d4d4;
+    text-shadow : 0px 1px 0.5px white;
   }
-
-  h5, h4 {
-    margin: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    line-height: 1.4;
-  }
-
-  .synopsis {
-    margin-top: 1em;
-
-    p {
-      font-size: 13px;
-      line-height: 1.6;
-      margin-left: @img-width + @img-padding;
+  ul {
+    li {
+      margin-bottom: 4px;
     }
   }
-
-  .speaker-links {
-    margin-left: @img-width + @img-padding;
-  }
 }
-
-p.attention {
-  line-height: 1.6;
-  margin-top: 1em;
-}
-
-.about {
-  #content .row:last-child {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-}
-
-.foto {
-  img {
-    padding: 4px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin: 0 auto;
-    display: block;
-  }
-
-
-  p {
-    padding-top: 4px;
-    text-align: center;
-    font-size: 11px;
-    font-weight: normal;
-    font-color: #ddd;
-    }
-}
-
-.bigger {
-  font-size: 110%;
-}
-
-.grey-uppercase-title {
-  text-transform: uppercase;
-  color: #BFBFBF;
-}
-
-h2 {
-  color: @blue;
-  font-size: 48px;
-  line-height: 1.2;
-  letter-spacing: -0.04em;
-}
-
-.blurb {
-  p {
-    font-size: 120%;
-    line-height: 160%;
-    margin-bottom: 3em;
-    border-left: 10px solid @grayLighter;
-    padding-left: 10px;
-  }
-}
-
-
-
-
-#map small a {
-  color: #71C4EB !important;
-  float: right;
-  border-bottom: none;
-}
-
-ol.directions {
-  font-size: 120%;
-  line-height: 1.2;
-}
-
-ul.objectives {
-  li {
-    color: #404040;
-    margin-bottom: 5px;
-  }
-}
-
-// .special-event {
-//   margin-top: 40px;
-//   background-color: white;
-//   padding: 20px;
-//   margin-bottom: 40px;
-//   font-size: 1.2em;
-
-//   .border-radius(10px);
-//   .box-shadow;
-
-//   h3 {
-//     font-size: 16px;
-//     color: #00608A;
-//     font-weight: bold;
-//     line-height: 18px;
-//     margin-bottom: 15px;
-//   }
-// }
-
