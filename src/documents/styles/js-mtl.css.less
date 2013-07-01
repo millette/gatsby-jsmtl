@@ -72,19 +72,27 @@ ul.contact {
 }
 
 .hero-unit {
-  padding: 16px;
+  background-color: transparent;
+  padding: 0px;
 
   .register {
     background-color: #FAFAFA;
-    border: solid 1px transparent;
-    border-radius: 0 0 5px 5px;
-    padding: 8px;
-    // #gradient > .vertical(#ECECEC, #FAFAFA);
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    padding: 16px;
+    #gradient > .vertical(#FAFAFA, #f2f2f2);
   }
+}
+
+.meetup {
+  margin-bottom: 1em;
 }
 
 .speaker {
   @img-width: 100px;
+  @img-padding: 15px;
+  
+  margin-bottom: 30px;
 
   img.gravatar {
     width: @img-width;
@@ -110,12 +118,12 @@ ul.contact {
     p {
       font-size: 13px;
       line-height: 1.6;
-      margin-left: @img-width + 10px;
+      margin-left: @img-width + @img-padding;
     }
   }
 
   .speaker-links {
-    margin-left: @img-width + 10px;
+    margin-left: @img-width + @img-padding;
   }
 }
 
