@@ -50,8 +50,7 @@ docpadConfig = {
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
-				"/scripts/script.js"
+				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 			]
 
 
@@ -83,7 +82,6 @@ docpadConfig = {
 		getMeetups: ->
 			#sort reverse chronologically
 			meetups = JSON.parse(@include('/data/meetups.json')).sort((a, b)-> b.num - a.num)
-			# Remove the first meetup.
 			return meetups
 
 		gravaturl: (email) ->
@@ -95,7 +93,10 @@ docpadConfig = {
 			return if meetup.speakers.length > 1 then meetup else 0
 
 		past: (date) ->
-      return if (moment(date).unix() < new Date().getTime()) then true else false
+      		return if (moment(date).unix() < new Date().getTime()) then true else false
+
+		future: (date) ->
+      		return !past(date)
 
 		parseDate: (date) ->
 			date = date.split(/(\d{4})(\d{2})(\d{2})/).join('-')
