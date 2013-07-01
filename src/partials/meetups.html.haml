@@ -1,6 +1,4 @@
-.row-fluid
-  .span16
-    %h6.grey-uppercase-title Previous meetups
+%h2 Previously
 :each meetup in meetups
   = helpers.partial('meetup', {meetup: meetup, helpers: helpers})
   %hr
