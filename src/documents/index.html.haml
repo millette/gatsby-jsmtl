@@ -21,7 +21,7 @@ layout: default
       = partial('speaker', { speaker: first, helpers: helpers })
   .span6
     .speaker
-      - if (booked) {
+      - if (booked(meetup)) {
       = partial('speaker', { speaker: second, helpers: helpers })
       - } else {
       %br
