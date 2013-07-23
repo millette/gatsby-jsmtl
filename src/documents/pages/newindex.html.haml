@@ -1,0 +1,31 @@
+```
+layout: default-nonav
+```
+- var meetup = getMeetups().shift()
+- first  = meetup.speakers[0]
+- second = meetup.speakers[1] || meetup.speakers[0]
+- meetupDate = parseDate(meetup['on'])
+- var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
+.top-unit
+  .row-fluid
+    .span9.blurb
+      %span.when= formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
+      %h2= meetup["title"]
+      :if meetup["blurb"]
+        %p= meetup["blurb"]
+    .span3
+      = partial('register')
+.row-fluid.meetup
+  .span6
+    .speaker
+      = partial('speaker', { speaker: first, helpers: helpers })
+  .span6
+    .speaker
+      - if (booked(meetup)) {
+      = partial('speaker', { speaker: second, helpers: helpers })
+      - } else {
+      %br
+      %br
+      %a.btn.info{href: 'mailto:contact@js-montreal.org '}
+        Looks like there's space for one more presentation!
+      - }

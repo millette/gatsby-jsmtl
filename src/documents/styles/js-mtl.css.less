@@ -1,15 +1,27 @@
 @import "twitter-bootstrap.css.less";
 
+.navbar-inner {
+  border: 0 none;
+  border-radius: 0px;
+}
+
 html {
   background-color: #ddd;
 }
 
 body {
+  background-image: url(/img/debut_light.png); 
+  background-position: initial initial; 
+  background-repeat: initial initial;
   background-color: #fafafa;
+
+  &.nonav {
+    padding-top: 40px;
+  }
 }
 
 #content {
-  background-color: #fafafa;
+  background-color: transparent;
   min-height: 500px;
 }
 

@@ -823,15 +823,15 @@
    "num": 31,
    "title": "Summer",
    "on": "20130709",
-   "blurb": "",
+   "blurb": "It's too hot to go play outside. Join us in Cakemail's comfortable, air-conditioned room for an evening of JavaScript.",
    "speakers": [{
       "title": "Pump.io - Next-Gen Social Network Engine",
       "email": "ryan@kafei.ca",
       "name": "Ryan Weal",
       "url": "http://www.kafei.ca/",
-      "synopsis": "Pump.io is a next generation social network engine written in JavaScript built by the creators of StatusNet, a PHP-based social networking tool. This complete rewrite and protocol change lightens the social network stack so that it is easily manageable by a single developer who is familiar with node.js. Pump.io manages the entire decentralized social network in JavaScript handling protocol communication and including a built-in web UI with real-time updating for the user. In this session we will talk about how to join an existing pump.io instance and follow people on other instances, how pump.io’s decentralization protocols work, and then we will talk about how to setup your own pump.io server.",
+      "synopsis": "Pump.io is a decentralized social network engine written in JavaScript. It lets you manage activity streams, handling protocol communication and providing a web UI with real-time updates. Ryan will explain how to join an existing pump.io instance and follow people on other instances, how pump.io’s protocols work, and show us how to setup your own pump.io server.",
       "links": [{
-         "url": "http://www.pump.io",
+         "url": "http://pump.io",
          "title": "Pump.io - Social Network Engine"
       }]
    }, {
