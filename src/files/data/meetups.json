@@ -849,7 +849,7 @@
    "num": 32,
    "title": "Summer",
    "on": "20130813",
-   "blurb": "Pizza and Beer, while Javascriptin'",
+   "blurb": "It's too cold to play outside. Join us for an evening of Javascript.",
    "speakers": [{
       "title": "RequireJS - Chargeur de Module AMD",
       "email": "motahawk@gmail.com",

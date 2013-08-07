@@ -105,7 +105,6 @@ docpadConfig = {
 		formatDate: (date, fmtStr) ->
 			return moment(date).format(fmtStr)
 
-
 	# =================================
 	# Collections
 	# These are special collections that our website makes available to us
