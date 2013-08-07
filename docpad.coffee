@@ -89,8 +89,12 @@ docpadConfig = {
 			hash.update email, 'utf8'
 			"http://www.gravatar.com/avatar/#{hash.digest('hex')}"
 
+		specialevent: (meetup) ->
+			return !!meetup.specialevent
+
 		booked: (meetup) ->
 			return if meetup.speakers.length > 1 then meetup else 0
+
 
 		past: (date) ->
       		return if (moment(date).unix() < new Date().getTime()) then true else false

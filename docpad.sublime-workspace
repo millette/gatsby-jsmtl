@@ -1,0 +1,1909 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grayL",
+				"grayLight"
+			],
+			[
+				"grayLight",
+				"grayLightest"
+			],
+			[
+				"gray",
+				"grayLight"
+			],
+			[
+				"name",
+				"namespace	@namespace"
+			],
+			[
+				"component",
+				"componentName"
+			],
+			[
+				"invalid",
+				"invalidTooltip"
+			],
+			[
+				"onChange",
+				"onModelChange"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/documents/styles/js-mtl.css.less",
+			"settings":
+			{
+				"buffer_size": 3483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/meetup.html.haml",
+			"settings":
+			{
+				"buffer_size": 378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/documents/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/special_event.html.haml",
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/files/data/meetups.json",
+			"settings":
+			{
+				"buffer_size": 43868,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"beaut",
+				"Javascript Beautify"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mard",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"merge",
+				"Sublimerge: View Diff"
+			],
+			[
+				"ugra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"tdo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bcarriere/development/docpad.js-montreal.org/out/data/meetups.json",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/acquisio-report-chart.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/select.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/models/report-component.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/acquisio-dataviz-chart.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/graph/views/GraphView.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/line-chart/line-chart.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/report-api.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/line-chart/line-chart.css",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/metric.js",
+		"/Users/bcarriere/development/kendoui.complete.latest/src/js/kendo.dataviz.chart.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/compare-last-period/compare-last-period.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/kendo.all.js",
+		"/Users/bcarriere/Library/Application Support/Sublime Text 2/Packages/User/JavascriptBeautify.sublime-settings",
+		"/Users/bcarriere/Library/Application Support/Sublime Text 2/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/Users/bcarriere/development/proteus/www/.htaccess",
+		"/Users/bcarriere/development/backend-trunk/ClientCampaigns/nbproject/build-impl.xml",
+		"/Users/bcarriere/.zrhrc",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/controller.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/report/report.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/editor.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/report/report-component.js",
+		"/Users/bcarriere/.zshrc",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/line-chart/line-chart.js",
+		"/Users/bcarriere/development/proteus/www/data/1374517296642.data.json",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/constants.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/graph/views/GraphEditionView.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/main.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/acquisio-dataviz-chart-reports.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/cross-channel-pie/cross-channel-pie.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/edit-components.js",
+		"/Users/bcarriere/development/proteus/www/templates/reports/editor/layout.html",
+		"/Users/bcarriere/development/proteus/www/stylesheets/stylus/acquisio-reports.styl",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/grid/grid.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/examples/random-cat.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/lib/backbone.marionette.js",
+		"/Users/bcarriere/development/proteus/proteus.sublime-project",
+		"/Users/bcarriere/development/proteus/proteus.sublime-workspace",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/multi-metrics.js",
+		"/Users/bcarriere/development/proteus/www/templates/reports/editor/components.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/editor/actions.html",
+		"/Users/bcarriere/development/proteus/www/stylesheets/acquisio-reports.css",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/components.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/component-settings.js",
+		"/Users/bcarriere/development/proteus/www/application/arch/clientcenter.json",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/interval.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/components.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/qa/reports/report-component.js",
+		"/Users/bcarriere/development/proteus/bin/qa.js",
+		"/Users/bcarriere/development/proteus/www/application/views/viewer/main.php",
+		"/Users/bcarriere/development/proteus/www/application/controllers/viewer.php",
+		"/Users/bcarriere/development/proteus/www/javascripts/viewer/viewer.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/filter.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/level.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/limit.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/sort.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/title.js",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/title.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/compare.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/base.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/interval.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings/dimension.js",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/multi-metrics.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/metric.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/sort.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/limit.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/compare.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/dimension.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/filter.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/settings/level.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/models/report-options.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/models/components.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/models/report.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/lib/jquery.floatThead.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/base.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/demo.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/qa/reports/main.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/qa/reports/components.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/qa/reports/component-wrapper.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/api.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/router.js",
+		"/Users/bcarriere/development/proteus/www/data/12345.meta.json",
+		"/Users/bcarriere/development/proteus/.gitignore",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/templates.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/wrapper.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/viewer/main.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/main.js",
+		"/Users/bcarriere/development/proteus/www/stylesheets/stylus/acquisio-viewer.styl",
+		"/Users/bcarriere/development/proteus/www/data/12345.data.json",
+		"/Users/bcarriere/development/proteus/www/application/views/page.php",
+		"/Users/bcarriere/development/proteus/www/application/core/MY_Controller.php",
+		"/Users/bcarriere/development/proteus/www/application/controllers/app.php",
+		"/Users/bcarriere/development/proteus/www/application/controllers/reports.php",
+		"/Users/bcarriere/development/proteus/www/application/config/routes.php",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/utils.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/viewer/controller.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/navigation.js",
+		"/Users/bcarriere/development/proteus/www/data/12345.json",
+		"/Users/bcarriere/development/proteus/www/javascripts/workbench/Controller.js",
+		"/Users/bcarriere/development/proteus/www/application/views/detect_browser.php",
+		"/Users/bcarriere/development/proteus/.jshintignore",
+		"/Users/bcarriere/development/proteus/.jshintrc",
+		"/Users/bcarriere/development/report-server-v2/copymodules",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/main.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/lib/backbone.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/workbench/models/keyword.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/lib/underscore.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/layout.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/sidepanel.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/themepanel.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/manager/layout.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor/actions.js",
+		"/Users/bcarriere/development/backend-trunk/AcquisioSearch/src/java/com/acquisio/search/entityvalidator/EntityValidatorContants.java",
+		"/Users/bcarriere/development/proteus/www/javascripts/grid/editors/datepicker.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/header/header.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/examplecomponent.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/report-api.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/kpi-summary/kpi-summary.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/kpi-summary/kpi-summary.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/compare-last-period/compare-last-period.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/conversion-funnel/conversion-funnel.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/cross-channel-pie/cross-channel-pie.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/conversion-funnel/conversion-funnel.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/grid/grid.html",
+		"/Users/bcarriere/development/proteus/www/templates/reports/sections/default.html",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/settings/base.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/common/natives.js",
+		"/Users/bcarriere/development/proteus/www/javascripts/reports/components/examples/simplest.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/bcarriere/development/proteus/www/javascripts/reports",
+			"/Users/bcarriere/development/proteus/www/stylesheets",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www/stylesheets/stylus",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports",
+			"/Users/bcarriere/development/proteus/www/stylesheets/stylus",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports/views/settings",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports",
+			"/Users/bcarriere/development/proteus/www/application/controllers",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports/components",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports/views/editor",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www/templates",
+			"/Users/bcarriere/development/proteus/www/javascripts/reports",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www/javascripts/qa",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www/stylesheets",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www/stylesheets/stylus",
+			"/Users/bcarriere/development/proteus/www/javascripts/workbench",
+			"/Users/bcarriere/development/proteus/www/javascripts",
+			"/Users/bcarriere/development/proteus/www",
+			"/Users/bcarriere/development/proteus/www/javascripts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"special",
+			"legend",
+			"section-",
+			"collection",
+			"categoryLabels",
+			"dateRangeTool",
+			"tooltipsBy",
+			"margin",
+			"render",
+			"label",
+			"kendo",
+			"legend",
+			"title",
+			"colors",
+			"color",
+			"axis",
+			"var Chart",
+			"Highlight",
+			"_redraw",
+			"Chart",
+			"kendoChart",
+			"javac",
+			"memory",
+			"getChartStep",
+			"getValueAx",
+			"valueAxis",
+			"acquisio.GraphIntervalTime",
+			"moment(endDate, 'YYYY-MM-DD')",
+			"moment(startDate, 'YYYY-MM-DD')",
+			"component:edit",
+			"edit",
+			"onEditSettings",
+			"cog",
+			"kendo-chart-rule",
+			"tooltipsByCate",
+			"tooltip",
+			"kendo-chart",
+			"getCategories",
+			"categories",
+			"graphType",
+			"kendoChart",
+			"kendo",
+			"kendoChart",
+			"acquisio-dataviz",
+			"fnv",
+			"AcquisioChart",
+			"$gray",
+			"@grey",
+			"@gray",
+			"last-child",
+			"report-section",
+			"index",
+			"moveup",
+			"add",
+			"itemview:",
+			"onMoveUp",
+			".show(",
+			"region",
+			"existing",
+			"onitem",
+			"transform",
+			".conf",
+			"enticon",
+			"entic",
+			"bind",
+			"enticon",
+			"entico",
+			"onopen",
+			"onAdd",
+			"agency",
+			"selectedComponent",
+			"addItemv",
+			"addItem",
+			"component:edit",
+			"onEdit",
+			"editComponent",
+			"this.selectedComponent",
+			"settingsModel",
+			"itemview",
+			"this.reportComponent",
+			"showc",
+			"show",
+			"showComponent\\",
+			"showComponent",
+			"onSelectCom",
+			"Reports",
+			"Components",
+			"componentsmodal",
+			"this.report",
+			"render",
+			"section:",
+			"item",
+			"itemview",
+			"onEdit",
+			"account",
+			"api",
+			"onopen",
+			"className",
+			"this.ui.",
+			"this",
+			"report-editor-layout",
+			"getTemplate",
+			"itemview",
+			"iteview",
+			"this.reportView",
+			"reportView",
+			"graph",
+			"+",
+			"COMPARE = ",
+			"window.Templates",
+			"wrapper",
+			"this.report",
+			"models/components",
+			"require(.*)models\\/components.js",
+			"editor",
+			"ComponentBase",
+			"isCached",
+			"demo",
+			"settings",
+			"forComponent",
+			"Wrapper",
+			"showtemplate",
+			"showTemplates",
+			"showTemplate",
+			"wrapCompon",
+			"settings",
+			"templ",
+			"componentTemplateUrl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"kendoReportChart",
+			"INTERVAL",
+			"momentEndDate",
+			"kendoReportChart",
+			"this.Templates",
+			"this.reportPreview",
+			"ReportComponent",
+			"reportComponents",
+			"reports.views",
+			"EmptyView",
+			"Views.",
+			"Proteus.module('reports.views', function(Views,",
+			"Reports.",
+			"stopEditing",
+			"activeCells",
+			"\\w$',",
+			"UP",
+			"SPACER",
+			"\"",
+			"\";",
+			"compareStyle",
+			"append",
+			"\";",
+			"Cells",
+			"Editors.Workbench"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/documents/styles/js-mtl.css.less",
+					"settings":
+					{
+						"buffer_size": 3483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/partials/meetup.html.haml",
+					"settings":
+					{
+						"buffer_size": 378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/documents/index.html.haml",
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/partials/special_event.html.haml",
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/files/data/meetups.json",
+					"settings":
+					{
+						"buffer_size": 43868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43868,
+								43868
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16600.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 136.0
+	},
+	"output.git":
+	{
+		"height": 130.0
+	},
+	"output.run_mocha":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"meetups.js",
+				"out/data/meetups.json"
+			],
+			[
+				"spe",
+				"src/partials/special_event.html.haml"
+			],
+			[
+				"report-compon",
+				"proteus/www/javascripts/reports/views/report/report-component.js"
+			],
+			[
+				"reportchart",
+				"proteus/www/javascripts/common/acquisio-report-chart.js"
+			],
+			[
+				"chart.js",
+				"proteus/www/javascripts/common/acquisio-dataviz-chart.js"
+			],
+			[
+				"kendo.all.js",
+				"proteus/www/javascripts/kendo.all.js"
+			],
+			[
+				"report-api",
+				"www/javascripts/reports/report-api.js"
+			],
+			[
+				"line-chart",
+				"www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				".htac",
+				"www/.htaccess"
+			],
+			[
+				"acquisio-report-chart",
+				"www/javascripts/common/acquisio-report-chart.js"
+			],
+			[
+				".htacc",
+				"proteus/www/.htaccess"
+			],
+			[
+				"acquisio-report",
+				"proteus/www/javascripts/common/acquisio-report-chart.js"
+			],
+			[
+				"graphview",
+				"proteus/www/javascripts/graph/views/GraphView.js"
+			],
+			[
+				"editor",
+				"proteus/www/javascripts/reports/views/editor/editor.js"
+			],
+			[
+				"reportscontrol",
+				"proteus/www/javascripts/reports/controller.js"
+			],
+			[
+				"viewsreport",
+				"proteus/www/javascripts/reports/views/report/report.js"
+			],
+			[
+				"report-comp",
+				"proteus/www/javascripts/reports/views/report/report-component.js"
+			],
+			[
+				"line-char",
+				"proteus/www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"report-char",
+				"proteus/www/javascripts/common/acquisio-report-chart.js"
+			],
+			[
+				"constants",
+				"proteus/www/javascripts/common/constants.js"
+			],
+			[
+				"kendo.",
+				"proteus/www/javascripts/kendo.all.js"
+			],
+			[
+				"line-cart",
+				"proteus/www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"templatereportslayout",
+				"proteus/www/templates/reports/editor/layout.html"
+			],
+			[
+				"acquisrepo",
+				"proteus/www/stylesheets/stylus/acquisio-reports.styl"
+			],
+			[
+				"report.js",
+				"proteus/www/javascripts/reports/views/report/report.js"
+			],
+			[
+				"report/report-comp",
+				"proteus/www/javascripts/reports/views/report/report-component.js"
+			],
+			[
+				"componet/grid/",
+				"proteus/www/javascripts/reports/components/grid/grid.js"
+			],
+			[
+				"marionette",
+				"proteus/www/javascripts/lib/backbone.marionette.js"
+			],
+			[
+				"editor.js",
+				"proteus/www/javascripts/reports/views/editor/editor.js"
+			],
+			[
+				"reports/editor/editor",
+				"proteus/www/javascripts/reports/views/editor/editor.js"
+			],
+			[
+				"report/editor/com",
+				"proteus/www/templates/reports/editor/components.html"
+			],
+			[
+				"mul",
+				"proteus/www/javascripts/reports/views/settings/multi-metrics.js"
+			],
+			[
+				".hta",
+				"proteus/www/.htaccess"
+			],
+			[
+				"reports/editor/compon",
+				"proteus/www/templates/reports/editor/components.html"
+			],
+			[
+				"edit-comp",
+				"proteus/www/javascripts/reports/views/editor/edit-components.js"
+			],
+			[
+				"components.js",
+				"proteus/www/javascripts/reports/views/editor/components.js"
+			],
+			[
+				"controller",
+				"proteus/www/javascripts/reports/controller.js"
+			],
+			[
+				"acqreport",
+				"proteus/www/stylesheets/stylus/acquisio-reports.styl"
+			],
+			[
+				"acquisio-repo",
+				"proteus/www/stylesheets/acquisio-reports.css"
+			],
+			[
+				"arch/",
+				"proteus/www/application/arch/clientcenter.json"
+			],
+			[
+				"viewreport",
+				"proteus/www/javascripts/reports/views/report/report.js"
+			],
+			[
+				"report-compone",
+				"proteus/www/javascripts/reports/views/report/report-component.js"
+			],
+			[
+				"marionette.js",
+				"proteus/www/javascripts/lib/backbone.marionette.js"
+			],
+			[
+				"viewer.js",
+				"proteus/www/javascripts/viewer/viewer.js"
+			],
+			[
+				".ht",
+				"proteus/www/.htaccess"
+			],
+			[
+				"viewer/min",
+				"proteus/www/application/views/viewer/main.php"
+			],
+			[
+				"settings.js",
+				"proteus/www/javascripts/reports/views/editor/component-settings.js"
+			],
+			[
+				"title.html",
+				"proteus/www/templates/reports/sections/settings/title.html"
+			],
+			[
+				"views/report/",
+				"proteus/www/javascripts/reports/views/report/report-component.js"
+			],
+			[
+				"qa/reports",
+				"proteus/www/javascripts/qa/reports/components.js"
+			],
+			[
+				"qa/reports/",
+				"proteus/www/javascripts/qa/reports/component-wrapper.js"
+			],
+			[
+				"reportscontroller",
+				"proteus/www/javascripts/reports/controller.js"
+			],
+			[
+				"common/api.js",
+				"proteus/www/javascripts/common/api.js"
+			],
+			[
+				"1234",
+				"proteus/www/data/12345.meta.json"
+			],
+			[
+				"wrapper.js",
+				"proteus/www/javascripts/reports/components/wrapper.js"
+			],
+			[
+				"template.j",
+				"proteus/www/javascripts/common/templates.js"
+			],
+			[
+				"component",
+				"proteus/www/javascripts/reports/components/components.js"
+			],
+			[
+				"data/",
+				"proteus/www/data/12345.meta.json"
+			],
+			[
+				"line",
+				"proteus/www/javascripts/reports/components/line-chart/line-chart.html"
+			],
+			[
+				"component/base",
+				"proteus/www/javascripts/reports/components/base.js"
+			],
+			[
+				"wrapper",
+				"proteus/www/javascripts/reports/components/wrapper.js"
+			],
+			[
+				"123",
+				"proteus/www/data/12345.meta.json"
+			],
+			[
+				"page.php",
+				"proteus/www/application/views/page.php"
+			],
+			[
+				"my_con",
+				"proteus/www/application/core/MY_Controller.php"
+			],
+			[
+				"viewer.",
+				"proteus/www/application/controllers/viewer.php"
+			],
+			[
+				"linechar",
+				"proteus/www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"routes.php",
+				"proteus/www/application/config/routes.php"
+			],
+			[
+				"viewer.ph",
+				"proteus/www/application/controllers/viewer.php"
+			],
+			[
+				"utils.js",
+				"proteus/www/javascripts/common/utils.js"
+			],
+			[
+				"viewer/main.php",
+				"proteus/www/application/views/viewer/main.php"
+			],
+			[
+				"components",
+				"www/javascripts/reports/components/components.js"
+			],
+			[
+				"report",
+				"www/javascripts/reports/report-api.js"
+			],
+			[
+				"edtor",
+				"www/javascripts/reports/views/editor/editor.js"
+			],
+			[
+				"util",
+				"www/javascripts/common/utils.js"
+			],
+			[
+				"keyword.js",
+				"www/javascripts/workbench/models/keyword.js"
+			],
+			[
+				"backbone",
+				"www/javascripts/lib/backbone.js"
+			],
+			[
+				"under",
+				"www/javascripts/lib/underscore.js"
+			],
+			[
+				"templates/settings/title",
+				"www/templates/reports/sections/settings/title.html"
+			],
+			[
+				"acquiso-repor",
+				"www/stylesheets/stylus/acquisio-reports.styl"
+			],
+			[
+				"backbone.js",
+				"www/javascripts/lib/backbone.js"
+			],
+			[
+				"demo.js",
+				"www/javascripts/reports/demo.js"
+			],
+			[
+				"componentsbase",
+				"www/javascripts/reports/components/base.js"
+			],
+			[
+				"component.js",
+				"www/javascripts/reports/components/components.js"
+			],
+			[
+				"qa/wrapper",
+				"www/javascripts/qa/reports/component-wrapper.js"
+			],
+			[
+				"reports.styl",
+				"www/stylesheets/stylus/acquisio-reports.styl"
+			],
+			[
+				"line-ch",
+				"www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"utils",
+				"www/javascripts/common/utils.js"
+			],
+			[
+				"api.js",
+				"www/javascripts/common/api.js"
+			],
+			[
+				"line-hcar",
+				"www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"rand-c",
+				"www/javascripts/reports/components/examples/random-cat.js"
+			],
+			[
+				"pi.js",
+				"www/javascripts/common/api.js"
+			],
+			[
+				"line-car",
+				"www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"comp",
+				"www/javascripts/reports/components/components.js"
+			],
+			[
+				"line-chart.js",
+				"www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"base.js",
+				"www/javascripts/reports/components/settings/base.js"
+			],
+			[
+				"defau",
+				"www/templates/reports/sections/default.html"
+			],
+			[
+				"linehcar",
+				"www/javascripts/reports/components/line-chart/line-chart.css"
+			],
+			[
+				"natives",
+				"www/javascripts/common/natives.js"
+			],
+			[
+				"qa/repor",
+				"www/javascripts/qa/reports/components.js"
+			],
+			[
+				"components.html",
+				"www/templates/reports/editor/components.html"
+			],
+			[
+				"templates.js",
+				"www/javascripts/common/templates.js"
+			],
+			[
+				"componen",
+				"www/templates/reports/editor/components.html"
+			],
+			[
+				"repor.js",
+				"www/javascripts/reports/views/report/report.js"
+			],
+			[
+				"linechart.js",
+				"www/javascripts/reports/components/linechart.js"
+			],
+			[
+				"reports/line-char",
+				"www/javascripts/reports/components/line-chart/line-chart.js"
+			],
+			[
+				"reports/components",
+				"www/javascripts/reports/models/components.js"
+			],
+			[
+				"constan",
+				"www/javascripts/common/constants.js"
+			],
+			[
+				"graph",
+				"www/javascripts/graph/views/GraphView.js"
+			],
+			[
+				"cells.j",
+				"www/javascripts/grid/cells.js"
+			],
+			[
+				"models/ads",
+				"www/javascripts/workbench/models/ad.js"
+			],
+			[
+				"models/ad.js",
+				"www/javascripts/qa/models/ad.js"
+			],
+			[
+				"ad-base",
+				"www/javascripts/workbench/views/editors/ad-base.js"
+			],
+			[
+				"as-base",
+				"www/javascripts/workbench/views/editors/ad-base.js"
+			],
+			[
+				"reports/editor/com",
+				"www/templates/reports/editor/components.html"
+			],
+			[
+				"bootstrap-drop",
+				"www/javascripts/lib/bootstrap-dropdown.js"
+			],
+			[
+				"editors/ur",
+				"www/javascripts/grid/editors/uri.js"
+			],
+			[
+				"cell-map",
+				"www/javascripts/grid/cell-mapper.js"
+			],
+			[
+				"cells.js",
+				"www/javascripts/grid/cells.js"
+			],
+			[
+				"keyword",
+				"www/javascripts/workbench/models/keyword.js"
+			],
+			[
+				"backgrid.js",
+				"www/javascripts/lib/backgrid/backgrid.js"
+			],
+			[
+				"",
+				"bin/carriers.js.handlebars"
+			],
+			[
+				"sections.js",
+				"www/javascripts/reports/views/report/sections.js"
+			],
+			[
+				"reports/editor/comp",
+				"www/templates/reports/editor/components.html"
+			],
+			[
+				"grid.js",
+				"www/javascripts/workbench/controllers/grid.js"
+			],
+			[
+				"entity.js",
+				"www/javascripts/workbench/models/entity.js"
+			],
+			[
+				"adgroup",
+				"www/javascripts/workbench/models/ad-group.js"
+			],
+			[
+				"workben",
+				"www/javascripts/grid/editors/workbench.js"
+			],
+			[
+				"graphedito",
+				"www/javascripts/graph/views/GraphEditionView.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true
+}

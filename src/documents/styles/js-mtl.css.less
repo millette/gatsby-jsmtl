@@ -6,13 +6,13 @@
 }
 
 html {
-  background-color: #ddd;
+  background-color: #fafafa;
 }
 
 body {
-  background-image: url(/img/debut_light.png); 
-  background-position: initial initial; 
-  background-repeat: initial initial;
+  // background-image: url(/img/debut_light.png);
+  // background-position: initial initial;
+  // background-repeat: initial initial;
   background-color: #fafafa;
 
   &.nonav {
@@ -22,13 +22,19 @@ body {
 
 #content {
   background-color: transparent;
-  min-height: 500px;
+  // min-height: 600px;
 }
 
 h2 {
   font-weight : normal;
   margin : 0px 0px 0.5em 0px;
 }
+
+.special-event {
+  .well;
+  position: relative;
+}
+
 
 // The blurb section is description of the meetup, with the date and title
 .blurb {
@@ -68,7 +74,7 @@ h2 {
     border-radius: 5px;
     padding: 16px;
     #gradient > .vertical(#FAFAFA, #f2f2f2);
-  
+
     [name=email] {
       width: 90%;
     }

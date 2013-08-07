@@ -849,13 +849,14 @@
    "num": 32,
    "title": "Summer",
    "on": "20130813",
-   "blurb": "It's too cold to play outside. Join us for an evening of Javascript.",
+   "specialevent": "cakemail-beer.html",
+   "blurb": "Dependency and module management libraries are a relatively new part of the JavaScript ecosystem and RequireJS is probably the most popular solution.",
    "speakers": [{
       "title": "RequireJS - Chargeur de Module AMD",
       "email": "motahawk@gmail.com",
       "name": "Thomas Thiery",
       "url": "http://requirejs.org",
-      "synopsis": "RequireJS est une librairie javascript qui permet de charger des fichiers / modules javascript. Il facilite grandement la structuration des projets javascript. Par des exemples simple et concret, la présentation nous amènera a voir plusieurs mise en place possible de la librairie, shim, AMD, node, pour un rapide tour d'horizon.",
+      "synopsis": "RequireJS est une librairie qui permet de charger des fichiers et modules JavaScript. Elle facilite grandement la structuration des projets JavaScript. Par des exemples simples et concrets, la présentation nous amènera à voir plusieurs mises en place possibles de la librairie &mdash; shim, AMD, node &mdash; pour un rapide tour d'horizon.",
       "links": [{
          "url": "http://requirejs.org",
          "title": "RequireJS - AMD Module Loader"
