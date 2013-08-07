@@ -9,7 +9,7 @@
   .span8
     %h4 Keep our objectives in mind:
     %ul
-      - purpose.each do |p|
+      :each p in purpose
         %li #{p}
     %h4 Une note concernant la langue
     %p.synopsis
