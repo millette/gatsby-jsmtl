@@ -26,7 +26,7 @@ layout: default-nonav
             = include('data/' + meetup.specialevent)    
     :if !specialevent(meetup)
       = partial('register')
-.row-fluid.meetup
+.row-fluid.meetup.speaker
   = partial('speaker', { speaker: first, helpers: helpers })
 :if booked(meetup)
   .row-fluid.meetup

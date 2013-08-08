@@ -1,18 +1,17 @@
 - url = speaker["url"]
-.speaker
-  .row-fluid
-    .span12
-      %h5
-        %a(href="!{url}" target="_new")= speaker["name"]
-      %h4= speaker["title"]
-  .row-fluid
+.row-fluid
+  .span12
+    %h5
+      %a(href="!{url}" target="_new")= speaker["name"]
+    %h4= speaker["title"]
+.row-fluid
+  .span12
     .synopsis
-      .span12
-        %a(href="!{speaker.url}" target="_new")
-          %img.gravatar(src="!{helpers.gravaturl(speaker.email)}")
-        %p
-          = speaker["synopsis"]
-        %ul.speaker-links.unstyled
-          :each link in speaker.links
-            %li
-              %a(href="!{link.url}" target="_new")= link["title"]
+      %a(href="!{speaker.url}" target="_new")
+        %img.gravatar(src="!{helpers.gravaturl(speaker.email)}")
+      %p
+        = speaker["synopsis"]
+      %ul.speaker-links.unstyled
+        :each link in speaker.links
+          %li
+            %a(href="!{link.url}" target="_new")= link["title"]
