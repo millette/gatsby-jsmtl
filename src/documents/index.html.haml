@@ -1,34 +1,38 @@
 ```
-layout: default
+layout: default-nonav
 ```
 - var meetup = getMeetups().shift()
 - first  = meetup.speakers[0]
 - second = meetup.speakers[1] || meetup.speakers[0]
 - meetupDate = parseDate(meetup['on'])
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
-:if specialevent(meetup)
-  .row-fluid
-    .span12
-      .special-event
-        = include('data/' + meetup.specialevent)
 .top-unit
-  .row-fluid
-    .span7.blurb
-      %span.when= formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
-      :if meetup["blurb"]
-        %p= meetup["blurb"]
-    .span5
+  %h1 JS-MONTREAL
+  %p Montreal's JavaScript User Group
+.row-fluid
+  .span6.blurb
+    %h1= formatDate(meetupDate, "MMMM Do, YYYY")
+    :if meetup["blurb"]
+      %p= meetup["blurb"]
+    :if !booked(meetup)
+      .alert.alert-info
+        %a(href="mailto:contact@js-montreal.org")
+          Looks like there's space for one more presentation!
+  .span6
+    :if specialevent(meetup)
+      .row-fluid
+        .span12
+          .special-event
+            = include('data/' + meetup.specialevent)    
+    :if !specialevent(meetup)
       = partial('register')
 .row-fluid.meetup
-  .span6
-    .speaker
-      = partial('speaker', { speaker: first, helpers: helpers })
-  .span6
-    .speaker
-      - if (booked(meetup)) {
-      = partial('speaker', { speaker: second, helpers: helpers })
-      - } else {
-      .alert.alert-info
-        %a{href: 'mailto:contact@js-montreal.org '}
-          Looks like there's space for one more presentation!
-      - }
+  = partial('speaker', { speaker: first, helpers: helpers })
+:if booked(meetup)
+  .row-fluid.meetup
+    = partial('speaker', { speaker: second, helpers: helpers })
+.row-fluid
+  .span12
+    %h2 Location
+    
+    = include('data/cakemail-map.html')

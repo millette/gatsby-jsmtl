@@ -1,5 +1,7 @@
 @import "twitter-bootstrap.css.less";
 
+iframe, object, embed { width: 100%; }
+
 .navbar-inner {
   border: 0 none;
   border-radius: 0px;
@@ -16,7 +18,7 @@ body {
   background-color: #fafafa;
 
   &.nonav {
-    padding-top: 40px;
+    padding-top: 20px;
   }
 }
 
@@ -33,15 +35,19 @@ h2 {
 .special-event {
   .well;
   position: relative;
+  margin-bottom: 3em;
 }
 
 
 // The blurb section is description of the meetup, with the date and title
 .blurb {
+  padding: 19px;
+  
   p {
     font-size: 120%;
     line-height: 160%;
     margin-bottom: 2em;
+    margin-top: 1em;
     border-left: 10px solid @grayLighter;
     padding-left: 10px;
   }
@@ -64,8 +70,10 @@ h2 {
 .top-unit {
   .hero-unit;
 
+  text-align: center;
+
   padding: 0px;
-  margin-bottom: 0;
+  margin-bottom: 2em;
   background-color: transparent;
 
   .register {
@@ -83,8 +91,7 @@ h2 {
 
 // Meetup container is two columns with 'speaker' inside
 .meetup {
-  margin-bottom: 1em;
-  margin-top: 3em;
+
 }
 
 .speaker {
@@ -92,6 +99,7 @@ h2 {
   @img-padding: 15px;
 
   margin-bottom: 30px;
+  padding: 19px;
 
   img.gravatar {
     width: @img-width;

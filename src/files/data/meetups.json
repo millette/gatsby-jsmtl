@@ -850,7 +850,7 @@
    "title": "Summer",
    "on": "20130813",
    "specialevent": "cakemail-beer.html",
-   "blurb": "Dependency and module management libraries are a relatively new part of the JavaScript ecosystem and RequireJS is probably the most popular solution.",
+   "blurb": "Dependency and module management libraries are an important part of the JavaScript ecosystem and RequireJS is probably the leading solution. Learn what it can do for you.",
    "speakers": [{
       "title": "RequireJS - Chargeur de Module AMD",
       "email": "motahawk@gmail.com",
