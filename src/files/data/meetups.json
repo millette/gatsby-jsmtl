@@ -850,7 +850,7 @@
    "title": "Summer",
    "on": "20130813",
    "specialevent": "cakemail-beer.html",
-   "blurb": "Dependency and module management libraries are an important part of the JavaScript ecosystem and RequireJS is probably the leading solution. Learn what it can do for you.",
+   "blurb": "Dependency and module management libraries are an important part of the JavaScript ecosystem and RequireJS and Browserify are the most popular solutions. Join us to learn what they can do for you.",
    "speakers": [{
       "title": "RequireJS - Chargeur de Module AMD",
       "email": "motahawk@gmail.com",
@@ -860,6 +860,16 @@
       "links": [{
          "url": "http://requirejs.org",
          "title": "RequireJS - AMD Module Loader"
+      }]
+   }, {
+      "title": "Browserify - CommonJS Module Loader",
+      "email": "ckm2k1@gmail.com",
+      "name": "Stanislav Venzerul",
+      "url": "http://browserify.org/",
+      "synopsis": "Browserify is a module management system and the main competitor to RequireJS. Unlike RequireJS, it's based on the CommonJS module loading system popularized by Node.js. This presentation will be an introduction to Browserify and how it differs from RequireJS and the AMD eco-system.",
+      "links": [{
+         "url": "http://browserify.org/",
+         "title": "Browserify - CommonJS Module Loader"
       }]
    }]
 }]

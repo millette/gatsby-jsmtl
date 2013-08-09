@@ -23,16 +23,16 @@ layout: default-nonav
       .row-fluid
         .span12
           .special-event
-            = include('data/' + meetup.specialevent)    
+            = include('data/' + meetup.specialevent)
     :if !specialevent(meetup)
       = partial('register')
 .row-fluid.meetup.speaker
   = partial('speaker', { speaker: first, helpers: helpers })
 :if booked(meetup)
-  .row-fluid.meetup
+  .row-fluid.meetup.speaker
     = partial('speaker', { speaker: second, helpers: helpers })
 .row-fluid
   .span12
     %h2 Location
-    
+
     = include('data/cakemail-map.html')
