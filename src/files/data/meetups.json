@@ -838,7 +838,7 @@
       "title": "Continuous Testing with Karma",
       "email": "danielrobertsdesign@gmail.com",
       "name": "Daniel Roberts",
-      "url": "http://ericminio.wordpress.com/",
+      "url": "https://plus.google.com/102285204872951861022/posts",
       "synopsis": "Karma is a testing framework agnostic, blazingly fast automated test runner written by the Google team behind Angular.js. Karma listens to your filesystem and runs your tests every time you save a file. Daniel will cover how with Karma, writing tests first, before code, can speed up your day-to-day development process, and turn test writing from a chore to an essential time saving practice you couldn't live without.",
       "links": [{
          "url": "http://karma-runner.github.io/0.8/index.html",
