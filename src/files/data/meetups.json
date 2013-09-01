@@ -872,4 +872,21 @@
          "title": "Browserify - CommonJS Module Loader"
       }]
    }]
+}, {
+   "num": 33,
+   "title": "Autumn",
+   "on": "20131009",
+   "specialevent": "cakemail-beer.html",
+   "blurb": "Pizza and Beer, brought to you by plot.ly",
+   "speakers": [{
+      "title": "Plot.ly - D3 Magic",
+      "email": "jack@plot.ly",
+      "name": "Jack Parmer",
+      "url": "https://www.plot.ly",
+      "synopsis": "D3.js has steadily gained popularity among scientists, data journalists, and web developers and is now arguably the leading open-source tool for web visualization. This talk will discuss Plotly's integration of d3.js with UX controls that allow users greater control over vis styling and information presentation",
+      "links": [{
+         "url": "https://www.plot.ly",
+         "title": "Plotly: Easily analyze data"
+      }]
+   }]
 }]
