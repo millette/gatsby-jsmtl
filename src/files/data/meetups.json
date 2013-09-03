@@ -877,7 +877,7 @@
    "title": "Autumn",
    "on": "20131009",
    "specialevent": "cakemail-beer.html",
-   "blurb": "Pizza and Beer, brought to you by plot.ly",
+   "blurb": "This month, Plotly will be demoing their product and showing some really cool usage of the D3.js data-driven document manipulation library.",
    "speakers": [{
       "title": "Plot.ly - D3 Magic",
       "email": "jack@plot.ly",
