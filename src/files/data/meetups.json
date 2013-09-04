@@ -875,7 +875,7 @@
 }, {
    "num": 33,
    "title": "Autumn",
-   "on": "20131009",
+   "on": "20130910",
    "specialevent": "cakemail-beer.html",
    "blurb": "This month, Plotly will be demoing their product and showing some really cool usage of the D3.js data-driven document manipulation library.",
    "speakers": [{
