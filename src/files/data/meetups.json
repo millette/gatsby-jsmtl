@@ -888,5 +888,18 @@
          "url": "https://www.plot.ly",
          "title": "Plotly: Easily analyze data"
       }]
+   }, {
+      "title": "PivotTable.js - For all your tabling needs",
+      "email": "nicolas@kruchten.com",
+      "name": "Nicolas Kruchten",
+      "url": "https://github.com/nicolaskruchten/pivottable",
+      "synopsis": "Pivot Tables and Pivot Charts are very useful interactive data analysis/visualization tools. Nicolas Kruchten from Datacratic will present his recently-open-sourced PivotTable.js component which addresses this need, and he will discuss applications and design decisions.",
+      "links": [{
+         "url": "https://github.com/nicolaskruchten/pivottable",
+         "title": "PivotTable.js Repository"
+      }, {
+         "url": "http://nicolas.kruchten.com/content/",
+         "title": "Personal Blog"
+      }]
    }]
 }]
