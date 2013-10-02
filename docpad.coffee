@@ -134,8 +134,6 @@ docpadConfig = {
 					tarExtractClean: true
 				}
 			]
-		livereload:
-			enabled: false
 
 
 	# =================================
