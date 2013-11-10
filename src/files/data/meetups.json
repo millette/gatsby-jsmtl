@@ -941,6 +941,7 @@
    "num": 35,
    "title": "Autumn",
    "on": "20131112",
+   "specialevent": "tribalnova-beer.html",
    "blurb": "November brings us cold, rain and frameworks. Come for the Javascript, stay for the showdown!",
    "speakers": [{
       "title": "Framework Showdown",

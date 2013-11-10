@@ -38,51 +38,41 @@ h2 {
   margin-bottom: 3em;
 }
 
+p.when {
+  font-size: 22px;
+  line-height: 22px;
 
-// The blurb section is description of the meetup, with the date and title
-.blurb {
-  padding: 19px;
-  
-  p {
-    font-size: 120%;
-    line-height: 160%;
-    margin-bottom: 2em;
-    margin-top: 1em;
-    border-left: 10px solid @grayLighter;
-    padding-left: 10px;
+  span.label.label-warning {
+    line-height: 22px;
+    font-size: 22px;
+    padding: 5px
   }
+}
 
-  .when {
-    margin-left: -5px;
-    font-size: 14px;
-    color: #777;
-    font-weight: bold;
-    line-height: 18px;
-  }
-
-  h2 {
-    margin-left: -5px;
-    margin-top: -5px;
-  }
+p.blurb {
+  font-size: 120%;
+  line-height: 160%;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  border-left: 10px solid @grayLighter;
+  padding-left: 10px;
 }
 
 // Container for the large font top of the page areas
 .top-unit {
   .hero-unit;
 
-  text-align: center;
+  text-align: left;
 
   padding: 0px;
   margin-bottom: 2em;
   background-color: transparent;
 
   .register {
-    background-color: #FAFAFA;
     border: 1px solid #d4d4d4;
     border-radius: 5px;
     padding: 16px;
-    #gradient > .vertical(#FAFAFA, #f2f2f2);
-
+    border-style: none none none solid;
     [name=email] {
       width: 90%;
     }

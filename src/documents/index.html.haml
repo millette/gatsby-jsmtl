@@ -7,13 +7,22 @@ layout: default-nonav
 - meetupDate = parseDate(meetup['on'])
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 .top-unit
-  %h1 JS-MONTREAL
-  %p Montreal's JavaScript User Group
+  .row-fluid
+    .span8
+      %h1 JS-MONTREAL
+      %p Montreal's JavaScript User Group
+    .span4
+      = partial('register')
 .row-fluid
-  .span6.blurb
-    %h1= formatDate(meetupDate, "MMMM Do, YYYY") + ' @ 7pm'
+  .span6
+    %p.when
+      %strong
+        = formatDate(meetupDate, "MMMM Do, YYYY")
+      &nbsp;
+      %span.label.label-warning
+        7pm
     :if meetup["blurb"]
-      %p= meetup["blurb"]
+      %p.blurb= meetup["blurb"]
     :if !booked(meetup)
       .alert.alert-info
         %a(href="mailto:contact@js-montreal.org")
@@ -24,8 +33,6 @@ layout: default-nonav
         .span12
           .special-event
             = include('data/' + meetup.specialevent)
-    :if !specialevent(meetup)
-      = partial('register')
 .row-fluid.meetup.speaker
   = partial('speaker', { speaker: first, helpers: helpers })
 :if booked(meetup)
