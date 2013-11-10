@@ -3,3 +3,4 @@ out/
 src/files/vendor/twitter-bootstrap
 .DS_Store
 docpad.sublime-project
+docpad.sublime-workspace
