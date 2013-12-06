@@ -7,14 +7,14 @@ layout: default-nonav
 - meetupDate = parseDate(meetup['on'])
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 .top-unit
-  .row-fluid
-    .span8
+  .row
+    .col-md-8
       %h1 JS-MONTREAL
       %p Montreal's JavaScript User Group
-    .span4
+    .col-md-4
       = partial('register')
-.row-fluid
-  .span6
+.row
+  .col-md-6
     %p.when
       %strong
         = formatDate(meetupDate, "MMMM Do, YYYY")
@@ -27,19 +27,19 @@ layout: default-nonav
       .alert.alert-info
         %a(href="mailto:contact@js-montreal.org")
           Looks like there's space for one more presentation!
-  .span6
+  .col-md-5.offset1
     :if specialevent(meetup)
-      .row-fluid
-        .span12
+      .row
+        .col-md-12
           .special-event
             = include('data/' + meetup.specialevent)
-.row-fluid.meetup.speaker
+.row.meetup.speaker
   = partial('speaker', { speaker: first, helpers: helpers })
 :if booked(meetup)
-  .row-fluid.meetup.speaker
+  .row.meetup.speaker
     = partial('speaker', { speaker: second, helpers: helpers })
-.row-fluid
-  .span12
+.row
+  .col-md-12
     %h2 Location
 
     = include('data/cakemail-map.html')

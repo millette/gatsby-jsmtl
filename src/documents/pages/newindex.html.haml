@@ -7,19 +7,19 @@ layout: default-nonav
 - meetupDate = parseDate(meetup['on'])
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 .top-unit
-  .row-fluid
-    .span9.blurb
+  .row
+    .col-md-9.blurb
       %span.when= formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
       %h2= meetup["title"]
       :if meetup["blurb"]
         %p= meetup["blurb"]
-    .span3
+    .col-md-3
       = partial('register')
-.row-fluid.meetup
-  .span6
+.row.meetup
+  .col-md-6
     .speaker
       = partial('speaker', { speaker: first, helpers: helpers })
-  .span6
+  .col-md-6
     .speaker
       - if (booked(meetup)) {
       = partial('speaker', { speaker: second, helpers: helpers })

@@ -1,0 +1,1 @@
+scp -r out/* jsmtladmin@js-montreal.org:~/js-montreal.org/public

@@ -1,43 +1,46 @@
+@import "variables.css.less";
 @import "twitter-bootstrap.css.less";
+@import "bootswatch.css.less";
 
+// Applies to the Google map
 iframe, object, embed { width: 100%; }
 
-.navbar-inner {
-  border: 0 none;
-  border-radius: 0px;
-}
-
-html {
+html, body {
   background-color: #fafafa;
 }
 
-body {
-  // background-image: url(/img/debut_light.png);
-  // background-position: initial initial;
-  // background-repeat: initial initial;
-  background-color: #fafafa;
+body.nonav {
+  padding-top: 20px;
+}
 
-  &.nonav {
-    padding-top: 20px;
+// Container for the large font top of the page area with
+// the register box.
+.top-unit {
+  .jumbotron;
+
+  text-align: left;
+
+  padding: 0px;
+  margin-bottom: 2em;
+  background-color: transparent;
+
+  .register {
+    border: 1px solid #d4d4d4;
+    padding: 16px;
+    border-style: none none none solid;
+    [name=email] {
+      width: 90%;
+    }
   }
 }
 
-#content {
-  background-color: transparent;
-  // min-height: 600px;
-}
-
-h2 {
-  font-weight : normal;
-  margin : 0px 0px 0.5em 0px;
-}
-
+// Special event box that shows up when we have b+p, etc
 .special-event {
   .well;
   position: relative;
-  margin-bottom: 3em;
 }
 
+// Date & Time before the meetup blur
 p.when {
   font-size: 22px;
   line-height: 22px;
@@ -54,34 +57,8 @@ p.blurb {
   line-height: 160%;
   margin-bottom: 2em;
   margin-top: 1em;
-  border-left: 10px solid @grayLighter;
+  border-left: 10px solid @gray-lighter;
   padding-left: 10px;
-}
-
-// Container for the large font top of the page areas
-.top-unit {
-  .hero-unit;
-
-  text-align: left;
-
-  padding: 0px;
-  margin-bottom: 2em;
-  background-color: transparent;
-
-  .register {
-    border: 1px solid #d4d4d4;
-    border-radius: 5px;
-    padding: 16px;
-    border-style: none none none solid;
-    [name=email] {
-      width: 90%;
-    }
-  }
-}
-
-// Meetup container is two columns with 'speaker' inside
-.meetup {
-
 }
 
 .speaker {
@@ -89,26 +66,25 @@ p.blurb {
   @img-padding: 15px;
 
   margin-bottom: 30px;
-  padding: 19px;
 
   img.gravatar {
     width: @img-width;
     float: left;
   }
 
-  h4 {
-    font-size: 22px;
-    font-weight: 200;
-    color: rgb(51, 51, 51);
-    white-space: nowrap;
-  }
+  // h4 {
+  //   font-size: 22px;
+  //   font-weight: 200;
+  //   color: rgb(51, 51, 51);
+  //   white-space: nowrap;
+  // }
 
-  h5, h4 {
-    margin: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    line-height: 1.4;
-  }
+  // h5, h4 {
+  //   margin: 0;
+  //   text-overflow: ellipsis;
+  //   overflow: hidden;
+  //   line-height: 1.4;
+  // }
 
   .synopsis {
     margin-top: 1em;
@@ -143,7 +119,7 @@ p.blurb {
 
 
   p {
-    font-size: @baseFontSize;
+    font-size: @font-size-base;
     padding-top: 4px;
     text-align: center;
     }
@@ -158,12 +134,12 @@ p.blurb {
   color: #BFBFBF;
 }
 
-h2 {
-  color: @blue;
-  font-size: 48px;
-  line-height: 1.2;
-  letter-spacing: -0.04em;
-}
+// h2 {
+//   color: @blue;
+//   font-size: 48px;
+//   line-height: 1.2;
+//   letter-spacing: -0.04em;
+// }
 
 
 #map small a {
@@ -178,7 +154,7 @@ ol.directions {
 }
 
 ul.objectives {
-  font-size: @baseFontSize;
+  font-size: @font-size-base;
   li {
     color: #404040;
     margin-bottom: 5px;
