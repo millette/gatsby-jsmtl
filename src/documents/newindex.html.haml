@@ -8,11 +8,13 @@ layout: default-nonav
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 .top-unit
   .row
-    .col-md-9.blurb
-      %span.when= formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
-      %h2= meetup["title"]
-      :if meetup["blurb"]
-        %p= meetup["blurb"]
+    .col-md-9
+      %h3
+        = meetup["title"]
+        %br
+        %small
+          = formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
+      %p.lead= meetup["blurb"]
     .col-md-3
       = partial('register')
 .row.meetup

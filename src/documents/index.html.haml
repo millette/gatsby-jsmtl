@@ -6,13 +6,6 @@ layout: default-nonav
 - second = meetup.speakers[1] || meetup.speakers[0]
 - meetupDate = parseDate(meetup['on'])
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
-.top-unit
-  .row
-    .col-md-8
-      %h1 JS-MONTREAL
-      %p Montreal's JavaScript User Group
-    .col-md-4
-      = partial('register')
 .row
   .col-md-6
     %p.when

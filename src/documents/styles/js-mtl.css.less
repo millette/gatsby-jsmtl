@@ -9,14 +9,10 @@ html, body {
   background-color: #fafafa;
 }
 
-body.nonav {
-  padding-top: 20px;
-}
-
 // Container for the large font top of the page area with
 // the register box.
 .top-unit {
-  .jumbotron;
+  //.jumbotron;
 
   text-align: left;
 
@@ -41,7 +37,7 @@ body.nonav {
 }
 
 // Date & Time before the meetup blur
-p.when {
+span.when {
   font-size: 22px;
   line-height: 22px;
 
@@ -167,6 +163,10 @@ ul.contact {
   li {
     padding-left: 24px;
 
+    &.meetup {
+      background: url(/img/icons/meetup.png) no-repeat scroll left bottom transparent;
+    }
+
     &.facebook {
       background: url(/img/icons/facebook.png) no-repeat scroll left bottom transparent;
     }
@@ -183,6 +183,11 @@ ul.contact {
       background: url(/img/icons/social-email.png) no-repeat scroll left bottom transparent;
     }
   }
+}
+
+header {
+  #gradient > .vertical(#f2f2f2, #FAFAFA);
+  padding-bottom: 30px;
 }
 
 footer {
