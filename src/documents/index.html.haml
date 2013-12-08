@@ -31,6 +31,13 @@ layout: default-nonav
       %a.btn.info{href: 'mailto:contact@js-montreal.org '}
         Looks like there's space for one more presentation!
       - }
-  .row.visible-xs.visible-sm
-    .small-register.col-md-12
-      = partial('register')
+%h2
+  Map
+  %br
+  %small
+    A short walk from the St-Henri or Lionel-Groulx metro.
+  .map
+    = partial('map')
+.row.visible-xs.visible-sm
+  .small-register.col-md-12
+    = partial('register')
