@@ -54,7 +54,7 @@
 <body>
   <header>
     <div class="container">
-      <nav class="navbar navbar-default main-navbar" role="navigation">
+      <nav class="navbar navbar-default main-navbar hidden-xs" role="navigation">
         <ul class="nav navbar-nav">
           <li><a href="/">Home</a></li>
           <li><a href="archive">Archive</a></li>
@@ -74,16 +74,16 @@
       <%- @content %>
     </section>
   </div>
-  <footer>
+  <footer class="hidden-xs hidden-sm">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h5><a href="/">js-montreal.org</a></h5>
+        <div class="col-md-5">
+          <h4><a href="/">js-montreal.org</a></h4>
           <p>Our goal is to bring the MTL JS development community together and promote the use and understanding of the language, inside and outside the browser.</p>
           <p>Powered by
-          <a href="http://docpad.org">Docpad</a><br/><a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a> </p>
+          <a href="http://docpad.org">Docpad</a></p>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7">
           <div class="row">
             <div class="col-md-4">
               <h4>Contact</h4>

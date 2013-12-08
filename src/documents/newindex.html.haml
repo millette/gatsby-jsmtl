@@ -15,7 +15,7 @@ layout: default-nonav
         %small
           = formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
       %p.lead= meetup["blurb"]
-    .col-md-4
+    .col-md-4.visible-md.visible-lg
       = partial('register')
 .row.meetup
   .col-md-5
@@ -31,3 +31,6 @@ layout: default-nonav
       %a.btn.info{href: 'mailto:contact@js-montreal.org '}
         Looks like there's space for one more presentation!
       - }
+  .row.visible-xs.visible-sm
+    .small-register.col-md-12
+      = partial('register')
