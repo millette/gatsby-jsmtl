@@ -57,9 +57,9 @@
       <nav role="navigation">
         <ul class="nav-simple">
           <li><a href="/">Home</a></li>
-          <li><a href="archive">Archive</a></li>
-          <li><a href="presenter">Present</a></li>
-          <li><a href="about">About</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <li><a href="presenter.html">Present</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
       <div class="row">
