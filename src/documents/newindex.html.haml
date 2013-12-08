@@ -8,20 +8,20 @@ layout: default-nonav
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 .top-unit
   .row
-    .col-md-9
-      %h3
+    .col-md-8
+      %h2
         = meetup["title"]
         %br
         %small
           = formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
       %p.lead= meetup["blurb"]
-    .col-md-3
+    .col-md-4
       = partial('register')
 .row.meetup
-  .col-md-6
+  .col-md-5
     .speaker
       = partial('speaker', { speaker: first, helpers: helpers })
-  .col-md-6
+  .col-md-5.col-md-offset-1
     .speaker
       - if (booked(meetup)) {
       = partial('speaker', { speaker: second, helpers: helpers })

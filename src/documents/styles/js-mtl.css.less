@@ -9,11 +9,8 @@ html, body {
   background-color: #fafafa;
 }
 
-// Container for the large font top of the page area with
-// the register box.
+// Container for the are with the meetup title and description + register box
 .top-unit {
-  //.jumbotron;
-
   text-align: left;
 
   padding: 0px;
@@ -25,36 +22,21 @@ html, body {
     padding: 16px;
     border-style: none none none solid;
     [name=email] {
-      width: 90%;
+      width: 160px;
     }
   }
+}
+
+.main-navbar {
+  background: transparent;
+  border: none;
+  .box-shadow(none);
 }
 
 // Special event box that shows up when we have b+p, etc
 .special-event {
   .well;
   position: relative;
-}
-
-// Date & Time before the meetup blur
-span.when {
-  font-size: 22px;
-  line-height: 22px;
-
-  span.label.label-warning {
-    line-height: 22px;
-    font-size: 22px;
-    padding: 5px
-  }
-}
-
-p.blurb {
-  font-size: 120%;
-  line-height: 160%;
-  margin-bottom: 2em;
-  margin-top: 1em;
-  border-left: 10px solid @gray-lighter;
-  padding-left: 10px;
 }
 
 .speaker {
@@ -68,20 +50,6 @@ p.blurb {
     float: left;
   }
 
-  // h4 {
-  //   font-size: 22px;
-  //   font-weight: 200;
-  //   color: rgb(51, 51, 51);
-  //   white-space: nowrap;
-  // }
-
-  // h5, h4 {
-  //   margin: 0;
-  //   text-overflow: ellipsis;
-  //   overflow: hidden;
-  //   line-height: 1.4;
-  // }
-
   .synopsis {
     margin-top: 1em;
 
@@ -93,13 +61,6 @@ p.blurb {
 
   .speaker-links {
     margin-left: @img-width + @img-padding;
-  }
-}
-
-.about {
-  #content .row:last-child {
-    margin-top: 40px;
-    margin-bottom: 40px;
   }
 }
 
@@ -120,23 +81,6 @@ p.blurb {
     text-align: center;
     }
 }
-
-.bigger {
-  font-size: 110%;
-}
-
-.grey-uppercase-title {
-  text-transform: uppercase;
-  color: #BFBFBF;
-}
-
-// h2 {
-//   color: @blue;
-//   font-size: 48px;
-//   line-height: 1.2;
-//   letter-spacing: -0.04em;
-// }
-
 
 #map small a {
   color: #71C4EB !important;
@@ -186,11 +130,22 @@ ul.contact {
 }
 
 header {
+  position: relative;
   #gradient > .vertical(#f2f2f2, #FAFAFA);
-  padding-bottom: 30px;
+  margin-bottom: 3em;
+
+  .main-navbar {
+    min-height: 0px;
+    margin-bottom: 0px;
+    li > a {
+      text-shadow: none;
+      padding: 10px 20px 10px 0px;
+    }
+  }
 }
 
 footer {
+  margin-top: 4em;
   min-height: 250px;
   #gradient > .vertical(#FAFAFA, #f2f2f2);
   border-top: 1px solid #d4d4d4;

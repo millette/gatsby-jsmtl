@@ -2,10 +2,17 @@
 moment = require('moment')
 # for computing the md5 for gravtar url.
 crypto = require('crypto')
+path = require('path')
+
+srcPath = (args...) ->
+	paths = [__dirname, 'src'].concat(args)
+	return path.join.apply(null, paths)
 
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
+
+	ignorePaths: [srcPath("files", "vendor", "twitter-bootstrap")]
 
 	# =================================
 	# Template Data

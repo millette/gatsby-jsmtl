@@ -10,19 +10,16 @@ purposes:
 - Disseminate quality JS related information (tutorials, articles, papers, discussions, etc),
 - Have fun programming and talking about programming
   ```
-.row
-  .col-md-16.blurb
-    %h2 Want to show us something?
+.jumbotron
+  %h1 Want to show us something?
+  %p.lead
+    Anything related to JavaScript will do. If you want to present a commercial product you benefit from, you are required to buy beer for everyone. That's it!
+  %p(style="text-align: center;")
+    %a.btn.btn-info.btn-lg{href:"mailto:contact@js-montreal.org"} Contact us
 .row
   .col-md-6
-    %p.synopsis.bigger
-      Anything related to JavaScript will do. If you want to present a commercial product you benefit from, you are required to buy beer for everyone. That's it!
-    %a.btn.btn-info{href:"mailto:contact@js-montreal.org"} Contact us
+    %p
+      When we meet, presenters decide whether to use french or english, at their convenience. If the synopsis on our landing page is in french, the presentation will be given (primarily) in french.
   .col-md-6
-    %h4 Keep our objectives in mind:
-    %ul
-      :each purpose in document.purposes
-        %li= purpose
-    %h4 Une note concernant la langue
-    %p.synopsis
-      Lors de nos rencontres, les orateurs choisiront de pr&eacute;senter en anglais ou en francais, &agrave; leur guise. Normalement si le synopsis est en français, la présentation le sera aussi.
+    %p
+      Lors de nos rencontres, les orateurs choisiront de pr&eacute;senter en anglais ou en francais, &agrave; leur guise. Si le synopsis est en français, la présentation le sera aussi.

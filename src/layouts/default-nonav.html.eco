@@ -51,12 +51,20 @@
     })();
   </script>
 </head>
-<body class="nonav">
+<body>
   <header>
     <div class="container">
+      <nav class="navbar navbar-default main-navbar" role="navigation">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="archive">Archive</a></li>
+          <li><a href="presenter">Present</a></li>
+          <li><a href="about">About</a></li>
+        </ul>
+      </nav>
       <div class="row">
         <div class="col-md-12">
-          <h1>JS-MONTREAL<br><small>Montreal's JavaScript User Group</small></h1>
+          <h1><a href="http://js-montreal.org">js-montreal</a><br><small>Montreal's JavaScript User Group</small></h1>
         </div>
       </div>
     </div>
@@ -79,7 +87,7 @@
           <div class="row">
             <div class="col-md-4">
               <h4>Contact</h4>
-              <ul class="unstyled contact">
+              <ul class="list-unstyled contact">
                 <li class="meetup"><a href="https://meetup.com/js-montreal">meetup.com</a></li>
                 <li class="facebook"><a href="https://www.facebook.com/groups/253683934748003/">facebook group</a></li>
                 <li class="linkedin"><a href="http://www.linkedin.com/groups?gid=2514289">js-montreal.org</a></li>
@@ -89,7 +97,7 @@
             </div>
             <div class="col-md-4">
               <h4>User Groups</h4>
-              <ul class="unstyled">
+              <ul class="list-unstyled">
                 <li>
                   <a href="http://www.montrealonrails.com/">montreal.rb</a>
                 </li>
@@ -106,7 +114,7 @@
             </div>
             <div class="col-md-4">
               <h4>Special thanks</h4>
-              <ul class="unstyled">
+              <ul class="list-unstyled">
                 <li>
                   <a href="http://cakemail.com">Cakemail</a>
                 </li>
