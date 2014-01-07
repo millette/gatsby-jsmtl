@@ -23,13 +23,12 @@ layout: default-nonav
       = partial('speaker', { speaker: first, helpers: helpers })
   .col-md-5.col-md-offset-1
     .speaker
-      - if (booked(meetup)) {
+      - if(booked(meetup)) {
       = partial('speaker', { speaker: second, helpers: helpers })
       - } else {
       %br
       %br
-      %a.btn.info{href: 'mailto:contact@js-montreal.org '}
-        Looks like there's space for one more presentation!
+      %a.btn.info{ href: "mailto:contact@js-montreal.org" } Looks like there's space for one more presentation!
       - }
 %h2
   Map
