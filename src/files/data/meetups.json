@@ -989,4 +989,26 @@
          "title": "Company Website"
       }]
    }]
+}, {
+   "num": 36,
+   "title": "Winter",
+   "on": "20140114",
+   "blurb": "Come explore the micro and the macro with these 2 beautiful WebGL/Three.js projects showcasing the human brain and the solar system",
+   "speakers": [{
+      "title": "BrainBrowser",
+      "email": "tsherif@gmail.com",
+      "name": "Tarek Sherif",
+      "url": "http://www.tareksherif.ca/",
+      "synopsis": "BrainBrowser is a suite of web-based, real-time 2D and 3D visualization tools for neuroimaging data. BrainBrowser is a full JavaScript application, using WebGL (through three.js) for 3D rendering, the Canvas API for 2D rendering and Web Workers for computationally expensive data parsing tasks. It is being developed as part of the CBRAIN project at McGill University.",
+      "links": [{
+         "url": "https://brainbrowser.cbrain.mcgill.ca/",
+         "title": "BrainBrowser"
+         }, {
+         "url": "http://www.tareksherif.ca/",
+         "title": "Personal Website"
+         }, {
+         "url": "http://cbrain.mcgill.ca/",
+         "title": "CBRAIN"
+         }]
+   }]
 }]
