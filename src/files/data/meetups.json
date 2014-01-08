@@ -993,17 +993,33 @@
    "num": 37,
    "title": "Winter",
    "on": "20140114",
-   "blurb": "As seen at our last meetup, the JS hardware guys are back to show us a more in depth presentation of their project.",
+   "blurb": "Join us this month for some NodeJS goodness. Rami and Sebastien will show 2 different sides of NodeJS development.",
    "specialevent": "sungard-beer.html",
    "speakers": [{
-      "title": "Contrôle d'une bande LED RGB en JavaScript d'un bout à l'autre",
+      "title": "Mise en lumière de votre JavaScript!",
       "email": "sabascabot@gmail.com",
       "name": "Sebastien Cabot",
       "url": "Missing",
-      "synopsis": "Missing",
+      "synopsis": "Au cours de cette heure, nous souhaitons partager avec vous notre démarche pour parvenir à contrôler une bande DEL RVB via une interface Web, et cela en n'utilisant aucun autre langage que le JavaScript. Notre but est de vous initier à la quantité phénoménale d'interactions au monde physique qui vous est accessible avec la plateforme d'expérimentation BeagleBone Black et vos connaissances JavaScript.",
       "links": [{
-         "url": "https://brainbrowser.cbrain.mcgill.ca/",
-         "title": "BrainBrowser"
+         "url": "http://beagleboard.org/Products/BeagleBone",
+         "title": "The BeagleBone"
+      }, {
+         "url": "http://www.nodejs.com",
+         "title": "NodeJS"
+      }]
+   }, {
+      "title": "Turning Visual Studio into a NodeJS IDE",
+      "email": "rami.sayar@microsoft.com",
+      "name": "Rami Sayar",
+      "url": "http://wootstudio.ca",
+      "synopsis": "In this talk, Rami will show us how to turn Visual Studio into a magnificent NodeJS development environment using Microsoft's newly released NodeJS plugin.",
+      "links": [{
+         "url": "https://nodejstools.codeplex.com/",
+         "title": "NodeJS For Visual Studio"
+      }, {
+         "url": "http://www.windowsazure.com",
+         "title": "Windows Azure Hosting Platform"
       }]
    }]
 }]

@@ -17,6 +17,12 @@ layout: default-nonav
       %p.lead= meetup["blurb"]
     .col-md-4.visible-md.visible-lg
       = partial('register')
+    .col-md-5
+        :if specialevent(meetup)
+          .row
+            .col-md-12
+              .special-event
+                = include('data/' + meetup.specialevent)
 .row.meetup
   .col-md-5
     .speaker
