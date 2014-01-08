@@ -993,7 +993,7 @@
    "num": 37,
    "title": "Winter",
    "on": "20140114",
-   "blurb": "Join us this month for some NodeJS goodness. Rami and Sebastien will show 2 different sides of NodeJS development.",
+   "blurb": "Join us this month for some NodeJS goodness. Sebastien will show us a more in depth presentation on his Node powered hardware project and Rami will show us how to make Node development in Visual Studio more awesome.",
    "specialevent": "sungard-beer.html",
    "speakers": [{
       "title": "Mise en lumière de votre JavaScript!",
