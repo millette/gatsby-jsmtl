@@ -1013,13 +1013,10 @@
       "email": "rami.sayar@microsoft.com",
       "name": "Rami Sayar",
       "url": "http://wootstudio.ca",
-      "synopsis": "In this talk, Rami will show us how to turn Visual Studio into a magnificent NodeJS development environment using Microsoft's newly released NodeJS plugin.",
+      "synopsis": "Rami Sayar is a Microsoft Technical Evangelist based in Montreal (@ramisayar). He will be demoing the latest tools for Node JS and Visual Studio. NTVS allows you develop and debug nodejs web apps while retaining all the IDE features and power of Visual Studio. You can manage NPM packages for your projects, perform remote debugging and more.",
       "links": [{
          "url": "https://nodejstools.codeplex.com/",
          "title": "NodeJS For Visual Studio"
-      }, {
-         "url": "http://www.windowsazure.com",
-         "title": "Windows Azure Hosting Platform"
       }]
    }]
 }]
