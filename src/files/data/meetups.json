@@ -1031,7 +1031,13 @@
       "email": "ckm2k1@gmail.com",
       "name": "Steve Venzerul",
       "url": "http://pyex.info",
-      "synopsis": "Front-end apps are all the rage nowadays and the tool chain has never been better, but what's behind all the magic? what makes a modern front-end JS app tick? We will be looking at all those questiona and much more.",
-      "links": []
+      "synopsis": "Front-end apps are all the rage nowadays and the tool chain has never been better, but what's behind all the magic? what makes a modern front-end JS app tick? We will be looking at all those questions and much more.",
+      "links": [{
+         "title": "Addy Osmany on front-end architecture",
+         "url": "http://addyosmani.com/largescalejavascript/"
+       }, {
+         "title": "Excellent e-book on developing front-end Backbone apps.",
+         "url": "http://addyosmani.github.io/backbone-fundamentals/"
+       }]
    }]
 }]
