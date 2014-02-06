@@ -8,6 +8,12 @@ layout: default-nonav
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 .top-unit
   .row
+    .col-md-12
+      %h1
+        IMPROTANT: We've moved! new address and updated map are below.
+      %h2
+        New Address: 2050 Bleury Street, Suite 300
+  .row
     .col-md-8
       %h2
         = meetup["title"]
@@ -32,9 +38,12 @@ layout: default-nonav
       - if(booked(meetup)) {
       = partial('speaker', { speaker: second, helpers: helpers })
       - } else {
+      - if(meetup.singleSession) {
+      - } else {
       %br
       %br
       %a.btn.btn-info{ href: "mailto:contact@js-montreal.org" } Looks like there's space for one more presentation!
+      - }
       - }
 %h2
   Map
