@@ -35,7 +35,7 @@
 			"file": "src/files/data/meetups.json",
 			"settings":
 			{
-				"buffer_size": 52656,
+				"buffer_size": 52835,
 				"line_ending": "Unix"
 			}
 		},
@@ -124,7 +124,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 99.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"*.*, -*vendor/*, -production/, -*.json, -test/, -compiled_partials.js, -compiled_templates.js, -dev.js",
@@ -771,15 +771,15 @@
 					"file": "src/files/data/meetups.json",
 					"settings":
 					{
-						"buffer_size": 52656,
+						"buffer_size": 52835,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52653,
-								52653
+								52835,
+								52835
 							]
 						],
 						"settings":
@@ -962,7 +962,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 20189.0,
+						"translation.y": 20126.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
