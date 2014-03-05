@@ -1045,7 +1045,7 @@
    "title": "Winter",
    "on": "20140311",
    "singleSession": false,
-   "blurb": "This month we have a single session special event. etelesolv is providing the pizza and beer and Steve will bring food for thought on front-end app architecture.",
+   "blurb": "This month, we have cats! and Functional Reactive Bindings, which sadly have no cats involved, but are very interesting nontheless.",
    "specialevent": "eightysix-beer.html",
    "speakers": [{
       "title": "Cat-DNS: a DNS server that resolves everything to cats",
@@ -1061,11 +1061,11 @@
          "url": "http://notwaldorf.github.io/posts/go-cat-dns-go/"
        }]
    }, {
-      "title": "Functional Reactive Bindings (frb)",
+      "title": "MontageJS: Functional Reactive Bindings",
       "email": "gina.c.cook@gmail.com",
       "name": "Gina Cook",
       "url": "http://gina.ilanguage.ca/",
-      "synopsis": "loading blurb...",
+      "synopsis": "Awaiting blurb...",
       "links": [{
          "title": "Github Repo",
          "url": "https://github.com/montagejs/frb"
