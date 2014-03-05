@@ -1040,4 +1040,38 @@
          "url": "http://addyosmani.github.io/backbone-fundamentals/"
        }]
    }]
+}, {
+   "num": 39,
+   "title": "Winter",
+   "on": "20140311",
+   "singleSession": false,
+   "blurb": "This month we have a single session special event. etelesolv is providing the pizza and beer and Steve will bring food for thought on front-end app architecture.",
+   "specialevent": "eightysix-beer.html",
+   "speakers": [{
+      "title": "Cat-DNS: a DNS server that resolves everything to cats",
+      "email": "mdinculescu@gmail.com",
+      "name": "Monica Disculescu",
+      "url": "http://notwaldorf.github.io/posts/go-cat-dns-go/",
+      "synopsis": "The internet needs more cats. DNS servers are the authority on all things internet. Therefore, the best DNS server is the one that resolves everything to cats. We'll talk about DNS servers: how they work, how your browser talks to them, and how to write a DNS server that always gives you a cat in less than 200 lines of JavaScript.",
+      "links": [{
+         "title": "Github Repo",
+         "url": "https://github.com/notwaldorf/cat-dns"
+       }, {
+         "title": "Blog Post",
+         "url": "http://notwaldorf.github.io/posts/go-cat-dns-go/"
+       }]
+   }, {
+      "title": "Functional Reactive Bindings (frb)",
+      "email": "gina.c.cook@gmail.com",
+      "name": "Gina Cook",
+      "url": "http://gina.ilanguage.ca/",
+      "synopsis": "loading blurb...",
+      "links": [{
+         "title": "Github Repo",
+         "url": "https://github.com/montagejs/frb"
+       }, {
+         "title": "Blog",
+         "url": "http://gina.ilanguage.ca/"
+       }]
+   }]
 }]
