@@ -8,29 +8,26 @@ layout: default-nonav
 - var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
 .top-unit
   .row
-    .col-md-12
-      %h1
-        %span.important
-          IMPORTANT:&nbsp;
-        We've moved! new address and updated map are below.
-      %h3
-        New Address: 2050 Bleury Street, Suite 300
-  .row
-    .col-md-8
+    .col-md-6
       %h2
         = meetup["title"]
         %br
         %small
-          = formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00"
-      %p.lead= meetup["blurb"]
-    .col-md-4.visible-md.visible-lg
-      = partial('register')
-    .col-md-5
-        :if specialevent(meetup)
-          .row
-            .col-md-12
-              .special-event
-                = include('data/' + meetup.specialevent)
+          = formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00 "
+        %br
+        %a(href="http://www.meetup.com/js-montreal/events/162038152/" data-event="162038152" class="mu-rsvp-btn")RSVP
+      %p.lead
+        = meetup["blurb"]
+        %br
+        %br
+        %strong Don't forget, we've moved! Address is below.
+
+    .col-md-6
+      :if specialevent(meetup)
+        .row
+          .col-md-12
+            .special-event
+              = include('data/' + meetup.specialevent)
 .row.meetup
   .col-md-5
     .speaker
@@ -48,12 +45,21 @@ layout: default-nonav
       - }
       - }
 %h2
-  Map
+  Location
   %br
   %small
     Across the street from Place-des-Arts Metro
-  .map
+  .map.hidden-sm.hidden-xs
     = partial('map')
+.row.visible-xs.visible-sm
+  .col-md-12
+    %address.well
+      Radialpoint
+      %br
+      %a(href="http://maps.apple.com/?daddr=2050+Bleury,+Montreal+QC")2050 Bleury, Suite 300
+      %br
+      Montreal, QC
+
 .row.visible-xs.visible-sm
   .small-register.col-md-12
     = partial('register')

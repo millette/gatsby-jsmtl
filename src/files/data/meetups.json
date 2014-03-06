@@ -1045,7 +1045,7 @@
    "title": "Winter",
    "on": "20140311",
    "singleSession": false,
-   "blurb": "This month, we have cats! and Functional Reactive Bindings, which sadly have no cats involved, but are very interesting nontheless.",
+   "blurb": "This month, we have cats! and Functional Reactive Bindings, which sadly have no cats involved, but are very interesting nonetheless.",
    "specialevent": "eightysix-beer.html",
    "speakers": [{
       "title": "Cat-DNS: a DNS server that resolves everything to cats",
