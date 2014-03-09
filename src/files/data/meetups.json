@@ -1050,7 +1050,7 @@
    "speakers": [{
       "title": "Cat-DNS: a DNS server that resolves everything to cats",
       "email": "mdinculescu@gmail.com",
-      "name": "Monica Disculescu",
+      "name": "Monica Dinculescu",
       "url": "http://notwaldorf.github.io/posts/go-cat-dns-go/",
       "synopsis": "The internet needs more cats. DNS servers are the authority on all things internet. Therefore, the best DNS server is the one that resolves everything to cats. We'll talk about DNS servers: how they work, how your browser talks to them, and how to write a DNS server that always gives you a cat in less than 200 lines of JavaScript.",
       "links": [{
