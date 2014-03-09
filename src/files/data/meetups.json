@@ -1061,11 +1061,11 @@
          "url": "http://notwaldorf.github.io/posts/go-cat-dns-go/"
        }]
    }, {
-      "title": "MontageJS: Functional Reactive Bindings",
+      "title": "D3 & FRB: A case study in binding and editable DataViz",
       "email": "gina.c.cook@gmail.com",
       "name": "Gina Cook",
       "url": "http://gina.ilanguage.ca/",
-      "synopsis": "Awaiting blurb...",
+      "synopsis": "Functional Reactive Bindings go beyond just two-way data binding. They can gracefully bind long property paths and the contents of collections. They can also incrementally update the results of chains of queries including maps, flattened arrays, sums, and averages. In this talk I'll demo a framework agnostic graph visualization dashboard built using D3 and FRB which can be embedded in any client side app as a Bower component, or server side app as an NPM module.",
       "links": [{
          "title": "Github Repo",
          "url": "https://github.com/montagejs/frb"
