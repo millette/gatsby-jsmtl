@@ -1078,7 +1078,7 @@
    "num": 39,
    "title": "Spring",
    "on": "20140408",
-   "singleSession": false,
+   "singleSession": true,
    "blurb": "Spring brings us yet another snow storm and some beautiful streams and tools to keep our minds off the weather.",
    "specialevent": "turbulent-beer.html",
    "speakers": [{
