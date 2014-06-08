@@ -1126,4 +1126,32 @@
          "url": "http://rodyhaddad.com"
        }]
    }]
+}, {
+   "num": 41,
+   "title": "Summer",
+   "on": "20140610",
+   "singleSession": false,
+   "blurb": "Summer is in the air, and there's nothing like a nice cold serving of Javascript to keep you cool.",
+   "specialevent": false,
+   "speakers": [{
+      "title": "Advanced web debugging tools",
+      "email": "kevin.vicrey@nexu.org",
+      "name": "Kevin Vicrey",
+      "url": "https://vickev.com",
+      "synopsis": "Web applications getting more and more complex, bugs and performance issues can be difficult to find out. Using breakpoints in the debugging tool is a first step, but in this talk, we will focus more on advanced features.",
+      "links": [{
+         "title": "Personal Website",
+         "url": "https://vickev.com"
+       }]
+   }, {
+      "title": "Webcomponents, polymer, x-tags",
+      "email": "sacha.lepretre@nteo.ca",
+      "name": "Sacha Leprêtre",
+      "url": "http://www.nteo.ca/",
+     "synopsis": "Sacha will show us how webcomponents, polymer fit together and make the web a better place. He'll also show us the x-tags library, which acts as a polyfill, bringing web components to modern browsers.",
+      "links": [{
+         "title": "Company Website",
+         "url": "http://www.nteo.ca/"
+       }]
+   }]
 }]
