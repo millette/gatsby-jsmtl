@@ -15,7 +15,7 @@ layout: default-nonav
         %small
           = formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00 "
         %br
-        %a(href="http://www.meetup.com/js-montreal/events/169695522/" data-event="169695522" class="mu-rsvp-btn")RSVP
+        %a(href="http://www.meetup.com/js-montreal/events/169695812/" data-event="169695812" class="mu-rsvp-btn")RSVP
       %p.lead
         = meetup["blurb"]
     .col-md-6
@@ -55,7 +55,9 @@ layout: default-nonav
       %a(href="http://maps.apple.com/?daddr=2050+Bleury,+Montreal+QC")2050 Bleury, Suite 300
       %br
       Montreal, QC
-
 .row.visible-xs.visible-sm
   .small-register.col-md-12
     = partial('register')
+
+%script
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/script/21021123101537681383/api/mu.btns.js?id=cb03u575bcqflje7fslv08gen8";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");
