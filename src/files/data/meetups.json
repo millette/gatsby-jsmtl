@@ -1145,7 +1145,7 @@
        }]
    }, {
       "title": "Pourquoi et comment les Web Components?",
-      "email": "sacha.lepretre@nteo.ca",
+      "email": "sacha.lepretre@gmail.com",
       "name": "Sacha Leprêtre",
       "url": "https://twitter.com/sachalepretre",
      "synopsis": "Les Web Components (W3C) sont très prometteurs pour le web,les librairies/polyfills telle que Polymer, X-tag/ Brick nous permettent d'en bénéficier dés à présent.<br><br>Mais qui a-t-il derrière ces librairies?<br><br>Afin de nous éclairer sur des éventuels choix technologiques, Sacha va nous présenter les stratégies utilisées par celles-ci et nous donner un rapide aperçu sur Lïghtly la librairie qu'il a conçu.",
