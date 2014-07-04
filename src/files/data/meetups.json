@@ -1151,4 +1151,32 @@
      "synopsis": "Les Web Components (W3C) sont très prometteurs pour le web,les librairies/polyfills telle que Polymer, X-tag/ Brick nous permettent d'en bénéficier dés à présent.<br><br>Mais qui a-t-il derrière ces librairies?<br><br>Afin de nous éclairer sur des éventuels choix technologiques, Sacha va nous présenter les stratégies utilisées par celles-ci et nous donner un rapide aperçu sur Lïghtly la librairie qu'il a conçu.",
       "links": []
    }]
+}, {
+   "num": 42,
+   "title": "Summer",
+   "on": "20140708",
+   "singleSession": false,
+   "blurb": "Summer is in the air, and there's nothing like a nice cold serving of Javascript to keep you cool.",
+   "specialevent": false,
+   "speakers": [{
+      "title": "React",
+      "email": "danielrobertsdesign@gmail.com",
+      "name": "Daniel Roberts",
+      "url": "https://infoactive.co/",
+      "synopsis": "React is a recently released library built at Facebook and Instagram that's making a lot of waves. Daniel will show you what you need to know to get started and illustrate how it can work alongside more traditional libraries such as Backbone.",
+      "links": [{
+         "title": "React",
+         "url": "http://facebook.github.io/react/"
+       }]
+   }, {
+      "title": "Hit the ground running with Parse",
+      "email": "florent@icangowithout.com",
+      "name": "Florent Vilmart",
+      "url": "https://github.com/flovilmart",
+     "synopsis": "Parse is a popular platform that greatly simplifies the backend side of web and mobile apps. Florent has been an active user for a while and will quickly get us up to speed on the basics and follow up with power tips and advanced usage.",
+      "links": [{
+         "title": "parse-develop",
+         "url": "https://github.com/flovilmart/parse-develop"
+      }]
+   }]
 }]
