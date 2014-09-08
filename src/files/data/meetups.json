@@ -1185,7 +1185,7 @@
    "on": "20140909",
    "singleSession": true,
    "blurb": "Join us this Fall for a cool breeze of fresh Javascript and it's newly minted features.",
-   "specialevent": false,
+   "specialevent": "ssense-beer.html",
    "speakers": [{
       "title": "ECMAScript 6: The Next Generation",
       "email": "ckm2k1@gmail.com",
