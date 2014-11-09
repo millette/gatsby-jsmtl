@@ -1237,6 +1237,9 @@
       "links": [{
          "title": "BabelFrog",
          "url": "http://babelfrog.com"
+      }, {
+         "title": "BabelFrog (Github)",
+         "url": "https://github.com/dergachev/babelfrog"
       }]
    }]
 }]
