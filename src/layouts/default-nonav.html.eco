@@ -60,6 +60,7 @@
           <li><a href="archive.html">Archive</a></li>
           <li><a href="presenter.html">Present</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="http://www.meetup.com/js-montreal/messages/boards/thread/48462382">Jobs</a>
         </ul>
       </nav>
       <div class="row">
@@ -93,7 +94,7 @@
                 <li class="facebook"><a href="https://www.facebook.com/groups/253683934748003/">facebook group</a></li>
                 <li class="linkedin"><a href="http://www.linkedin.com/groups?gid=2514289">js-montreal.org</a></li>
                 <li class="twitter"><a href="http://www.twitter.com/jsmontreal">@jsmontreal</a></li>
-                <li class="email"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=contact@js-montreal.org" target="_blank">Email us</a></li>
+                <li class="email"><a href="mailto:contact@js-montreal.org" target="_blank">Email us</a></li>
               </ul>
             </div>
             <div class="col-md-4">
