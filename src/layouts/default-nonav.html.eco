@@ -101,6 +101,9 @@
               <h4>User Groups</h4>
               <ul class="list-unstyled">
                 <li>
+                  <a href="http://gtugmontreal.blogspot.ca">GDG Montreal</a>
+                </li>
+                <li>
                   <a href="http://www.montrealonrails.com/">montreal.rb</a>
                 </li>
                 <li>
@@ -108,9 +111,6 @@
                 </li>
                 <li>
                   <a href="http://montrealpython.org/">mtl python</a>
-                </li>
-                <li>
-                  <a href="http://cocoaheadsmtl.com/">cocoaheads mtl</a>
                 </li>
               </ul>
             </div>
