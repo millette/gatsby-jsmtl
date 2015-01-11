@@ -5,7 +5,7 @@ layout: default-nonav
 - first  = meetup.speakers[0]
 - second = meetup.speakers[1] || meetup.speakers[0]
 - meetupDate = parseDate(meetup['on'])
-- var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate }
+- var helpers = { partial: partial, gravaturl: gravaturl, parseDate: parseDate, formatDate: formatDate, specialEvent: !!specialevent }
 .top-unit
   .row
     .col-md-6
@@ -13,7 +13,7 @@ layout: default-nonav
         = meetup["title"]
         %br
         %small
-          = formatDate(meetupDate, "MMMM Do, YYYY") + " @ 19:00 "
+          = formatDate(meetupDate, "MMMM Do, YYYY") + startTime(meetup)
       %p.lead
         = meetup["blurb"]
     .col-md-6

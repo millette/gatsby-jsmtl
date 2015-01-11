@@ -116,6 +116,9 @@ docpadConfig = {
 		formatDate: (date, fmtStr) ->
 			return moment(date).format(fmtStr)
 
+		startTime: (meetup) ->
+			return if this.specialevent(meetup) then " @ 18:00" else " @ 19:00" 
+
 	# =================================
 	# Collections
 	# These are special collections that our website makes available to us
