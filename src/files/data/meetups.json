@@ -1279,7 +1279,7 @@
    "on": "20150113",
    "singleSession": false,
    "blurb": "This month: A bit of Angular and a walk through ES6 modules. Our friends at etelesolv are back with beer and pizza, so come early! Doors open at 18:00.",
-   "specialevent": "etelesolv-beer.html",   
+   "specialevent": "etelesolv-beer.html",
    "speakers": [{
       "title": "Flexible declarative drag & drop for Angular",
       "email": "ggoodman@gmail.com",
@@ -1305,6 +1305,27 @@
       }, {
          "title": "ES6 Modules: The Final Syntax",
          "url": "http://www.2ality.com/2014/09/es6-modules-final.html"
+      }]
+   }]
+}, {
+   "num": 48,
+   "title": "Yeoman FTW",
+   "on": "20150210",
+   "singleSession": true,
+   "blurb": "Join us this month for a great bit of automation with Yeoman Generators. Automate all the things!",
+   "specialevent": false,
+   "speakers": [{
+      "title": "Building you own Yeoman Generator",
+      "email": "ruyadorno@gmail.com",
+      "name": "Ruy Adorno",
+      "url": "https://twitter.com/ruyadorno",
+      "synopsis": "Generators are the building blocks of the Yeoman ecosystem and you don't need to be limited to only using the existing ones. In this talk we are going through an overview on how to create your own generator and automate your project setup process.",
+      "links": [{
+         "title": "Yeoman Website",
+         "url": "http://yeoman.io"
+      }, {
+         "title": "Guide To Generators",
+         "url": "http://yeoman.io/authoring/"
       }]
    }]
 }]
