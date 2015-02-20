@@ -1338,4 +1338,12 @@
          "url": "http://yeoman.io/learning/resources.html"
       }]
    }]
+}, {
+   "num": 49,
+   "title": "Talk submissions for March",
+   "on": "20150310",
+   "singleSession": false,
+   "blurb": "We're currently accepting talk propsals for the March meet-up.",
+   "specialevent": false,
+   "speakers": []
 }]
