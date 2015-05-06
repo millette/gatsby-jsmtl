@@ -1364,4 +1364,12 @@
    "blurb": "We're currently accepting talk propsals for the April meet-up.",
    "specialevent": false,
    "speakers": []
+}, {
+   "num": 51,
+   "title": "Talk submissions for May",
+   "specialevent": "salesfloor-beer.html",
+   "on": "20150512",
+   "singleSession": false,
+   "blurb": "We're currently accepting talk propsals for the May meet-up.",
+   "speakers": []
 }]
