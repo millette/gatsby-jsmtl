@@ -1357,19 +1357,24 @@
       }]
    }]
 }, {
-   "num": 50,
-   "title": "Talk submissions for April",
-   "on": "20150414",
-   "singleSession": false,
-   "blurb": "We're currently accepting talk propsals for the April meet-up.",
-   "specialevent": false,
-   "speakers": []
-}, {
    "num": 51,
    "title": "Talk submissions for May",
    "specialevent": "salesfloor-beer.html",
    "on": "20150512",
    "singleSession": false,
-   "blurb": "We're currently accepting talk propsals for the May meet-up.",
-   "speakers": []
+   "blurb": "Join us for some Javascript and old school gaming right on your phone, and it's even got Backbone. As someone said, Reactemberangulbone, or something.",
+   "speakers": [{
+      "title": "2D Platformer game for iOS using CocoonJS",
+      "email": "martindrapeau@gmail.com",
+      "name": "Martin Drapeau",
+      "url": "https://twitter.com/mister_flag",
+      "synopsis": "Martin has been working on something a little unusual over the last year: A game engine built using Backbone! In this talk he's going to talk about his experience building a native 2D platformer for iOS using CocoonJS, lessons learned creating Backbone Game Engine and technical challenges for wrapping in CocoonJS. Lean more about memory static loading, management, performance, storage, canvas-only, living without jQuery, etc...",
+      "links": [{
+         "title": "ConcoonJS by Ludei",
+         "url": "https://www.ludei.com/cocoonjs/"
+      }, {
+         "title": "Matin's Github",
+         "url": "https://github.com/martindrapeau"
+      }]
+   }]
 }]
