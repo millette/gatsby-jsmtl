@@ -11,10 +11,10 @@ layout: default-nonav
   .row
     .col-md-6
       %h2
-        = meetup["title"]
+        = formatDate(meetupDate, "MMMM Do, YYYY") + startTime(meetup)
         %br
         %small
-          = formatDate(meetupDate, "MMMM Do, YYYY") + startTime(meetup)
+          = meetup["title"]
       %p.lead
         = meetup["blurb"]
     .col-md-6

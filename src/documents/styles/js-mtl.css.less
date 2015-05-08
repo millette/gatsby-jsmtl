@@ -35,12 +35,17 @@ html, body {
   .box-shadow(none);
 }
 
+.lil-padding {
+  padding: @table-cell-padding;
+}
+
 // Special event box that shows up when we have b+p, etc
 .special-event {
   .well;
+  
   margin-top: 20px;
-  h2 {
-    font-family: cursive;
+  p {
+    margin-top: 1em;
   }
 }
 
@@ -208,7 +213,6 @@ footer {
 }
 
 .specialevent-logo {
-  float: right;
   width: 180px;
 }
 
