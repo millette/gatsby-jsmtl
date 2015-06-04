@@ -1352,29 +1352,41 @@
       "url": "https://twitter.com/sebastienfilion",
       "synopsis": "Using JavaScripts data type's methods is a flexible way of manipulating data structures; Discover functional programing and how to make the most out these expressive techniques. After this talk you will be able to solve everyday problems elegantly.",
       "links": [{
-         "title": "Functional Prorgamming",
+         "title": "Functional Programming",
          "url": "http://eloquentjavascript.net/1st_edition/chapter6.html"
       }]
    }]
 }, {
-   "num": 51,
-   "title": "2D Spring",
-   "specialevent": "salesfloor-beer.html",
-   "on": "20150512",
-   "singleSession": true,
-   "blurb": "Join us for some Javascript and old school gaming right on your phone, and it's even got Backbone. As someone said, Reactemberangulbone, or something.",
+   "num": 52,
+   "title": "RAML + Inker",
+   "on": "20150609",
+   "singleSession": false,
+   "blurb": "This month: one more acronym you have to pretend to know about and a great new way to deal with email development without pulling your hair out.",
    "speakers": [{
-      "title": "2D Platformer game for iOS using CocoonJS",
-      "email": "martindrapeau@gmail.com",
-      "name": "Martin Drapeau",
-      "url": "https://twitter.com/mister_flag",
-      "synopsis": "Martin has been working on something a little unusual over the last year: A game engine built using Backbone! In this talk he's going to talk about his experience building a native 2D platformer for iOS using CocoonJS, lessons learned creating Backbone Game Engine and technical challenges for wrapping in CocoonJS. Lean more about memory static loading, management, performance, storage, canvas-only, living without jQuery, etc...",
+      "title": "RAML: Describe your APIs",
+      "email": "jonathan@brandicted.com",
+      "name": "Jonathan Stoikovich",
+      "url": "https://brandicted.com/",
+      "synopsis": "RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices. This presentation will demonstrate how to generate a JavaScript client from a RAML file and use that client in your projects.",
       "links": [{
-         "title": "CocoonJS by Ludei",
-         "url": "https://www.ludei.com/cocoonjs/"
+         "title": "RAML",
+         "url": "http://raml.org/"
+      },{
+         "title": "RAML generated client example",
+         "url": "https://github.com/jstoiko/raml-javascript-client"
+      }]
+   },{
+      "title": "Inker: Rethinking how we manage email development & transactional delivery",
+      "email": "cedric.dugas@gmail.com",
+      "name": "Cedric Dugas",
+      "url": "http://www.position-absolute.com",
+      "synopsis": "Sujet difficile pour tout front-end dev, le développement d'email est souvent mal aimé et mépris. Voyons pourquoi nous sommes encore a faire tes tables dans un monde ou les technologies front-end évolue rapidement et comment on peut améliorer ca de façons significative.",
+      "links": [{
+         "title": "Inker",
+         "url": "http://inker.position-absolute.com/"
       }, {
-         "title": "Martin's Github",
-         "url": "https://github.com/martindrapeau"
+         "title": "Rethinking how we manage email development & transactional delivery",
+         "url": "http://www.position-absolute.com/articles/trends/its-time-to-rethink-how-we-manage-email-development-delivery/"
       }]
    }]
 }]
