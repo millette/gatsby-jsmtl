@@ -1528,6 +1528,7 @@
    "on": "20151208",
    "singleSession": false,
    "blurb": "'Server-less' webapps with webtask.io and our yearly retrospective.",
+   "specialevent": "roi-beer.html",
    "speakers": [{
       "title": "webtask.io",
       "email": "ggoodman@gmail.com",
