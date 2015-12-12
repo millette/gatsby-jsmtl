@@ -1541,16 +1541,13 @@
       }]
    }, {
       "title": "This year in JavaScript",
-      "email": "ckm2k1@gmail.com",
-      "name": "Steve Venzerul",
+      "email": "contact@js-montreal.org",
+      "name": "Steve Venzerul & Bruno Carriere",
       "url": "http://js-montreal.org/",
       "synopsis": "Another crazy year gone by in the world of JavaScript. Join us as we go over the major trends for this year and our predictions for next year.",
       "links": [{
-         "title": "Echo JS",
-         "url": "http://www.echojs.com/"
-      }, {
-         "title": "JavaScript Weekly",
-         "url": "http://javascriptweekly.com/"
+         "title": "JavaScript 2015 (slides)",
+         "url": "http://slides.com/signupskm/js-2015-retrospective-5#/"
       }]
    }]
 }]
