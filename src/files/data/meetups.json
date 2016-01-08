@@ -1550,4 +1550,21 @@
          "url": "http://slides.com/signupskm/js-2015-retrospective-5#/"
       }]
    }]
+}, {
+   "num": 59,
+   "title": "JavaScript Fundamentals: Prototypal Inheritance",
+   "on": "20160112",
+   "singleSession": true,
+   "blurb": "To kick off the new year, we will be having the first part of a series of JavaScript Fundamentals presentations.",
+   "speakers": [{
+      "title": "Fundamentals: Prototypal Inheritance",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "http://js-montreal.org",
+      "synopsis": "Prototypal inheritance in JavaScript is one of those things that is difficult to understand as a beginner and tricky to master as an experienced programmer. Steve will expose all its secrets, including some of the new constructs introduced in ES6.",
+      "links": [{
+         "title": "Understanding Prototypes, Delegation & Composition",
+         "url": "http://www.datchley.name/understanding-prototypes-delegation-composition/"
+      }]
+   }]
 }]
