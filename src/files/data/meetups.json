@@ -1567,4 +1567,21 @@
          "url": "http://www.datchley.name/understanding-prototypes-delegation-composition/"
       }]
    }]
+}, {
+   "num": 60,
+   "title": "Reactive JavaScript",
+   "on": "20160209",
+   "singleSession": true,
+   "blurb": "You've heard the term <i>Reactive programming</i> before. Someone tried to explain it to you; you have no idea what they are talking about. You should come to this meetup.",
+   "speakers": [{
+      "title": "Beyond React: Introducing Cycle.js",
+      "email": "andy.am@gmail.com",
+      "name": "Andy Maleh",
+      "url": "https://www.codementor.io/andymaleh",
+      "synopsis": "Cycle.js is a reactive RxJS/Virtual DOM based front-end library. Andy will provide a quick introduction to Cycle.js basics and philosophies, go through a tutorial of its concepts and demonstrate with some code examples. ",
+      "links": [{
+         "title": "Cycle.js",
+         "url": "http://cycle.js.org/"
+      }]
+   }]
 }]
