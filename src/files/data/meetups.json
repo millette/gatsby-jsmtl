@@ -1572,6 +1572,7 @@
    "title": "Reactive JavaScript",
    "on": "20160209",
    "singleSession": true,
+   "specialevent": "salesfloor-beer.html",
    "blurb": "You've heard the term <i>Reactive programming</i> before. Someone tried to explain it to you; you have no idea what they are talking about. You should come to this meetup.",
    "speakers": [{
       "title": "Beyond React: Introducing Cycle.js",
