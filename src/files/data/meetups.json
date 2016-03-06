@@ -1585,4 +1585,22 @@
          "url": "http://cycle.js.org/"
       }]
    }]
+}, {
+   "num": 61,
+   "title": "Open Source - Parse Server",
+   "on": "20160308",
+   "singleSession": true,
+   "specialevent": "clemex-beer.html",
+   "blurb": "Spring is in the air, and parse-server is open source. Both of those things are awesome but we can't give a talk about spring.",
+   "speakers": [{
+      "title": "parse-server: Beyond Facebook",
+      "email": "florent@flovilmart.com",
+      "name": "Florent Vilmart",
+      "url": "ttp://github.com/flovilmart",
+      "synopsis": "Facebook has recently open-sourced Parse after shutting down the project. Undeterred, Florent will show us what we can do with it, how to deploy it and provide some pro tips.",
+      "links": [{
+         "title": "parse-server",
+         "url": "https://github.com/ParsePlatform/parse-server"
+      }]
+   }]
 }]
