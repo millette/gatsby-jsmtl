@@ -1596,11 +1596,31 @@
       "title": "parse-server: Beyond Facebook",
       "email": "florent@flovilmart.com",
       "name": "Florent Vilmart",
-      "url": "ttp://github.com/flovilmart",
+      "url": "http://github.com/flovilmart",
       "synopsis": "Facebook has recently open-sourced Parse after shutting down the project. Undeterred, Florent will show us what we can do with it, how to deploy it and provide some pro tips.",
       "links": [{
          "title": "parse-server",
          "url": "https://github.com/ParsePlatform/parse-server"
+      }]
+   }]
+}, {
+   "num": 62,
+   "title": "Modern JavaScript",
+   "on": "20160412",
+   "singleSession": true,
+   "blurb": "Join us for a demonstartion of Turbulent's stunningly beautiful, explorable galactic world!",
+   "speakers": [{
+      "title": "StarCitizen Starmap",
+      "email": "b@turbulent.ca",
+      "name": "Benoit Beauséjour",
+      "url": "b@turbulent.ca",
+      "synopsis": "Benoit is going to show how he built StarCitizen using modern js goodness in the form of ThreeJS, TypeScript, ES6, SVG and WebGL",
+      "links": [{
+         "title": "Starmap project website",
+         "url": "https://robertsspaceindustries.com/starmap"
+      }, {
+         "title": "Github",
+         "url": "https://github.com/bbeausej"
       }]
    }]
 }]
