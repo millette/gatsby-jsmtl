@@ -1610,17 +1610,20 @@
    "singleSession": true,
    "blurb": "Join us for a demonstartion of Turbulent's stunningly beautiful, explorable galactic world!",
    "speakers": [{
-      "title": "StarCitizen Starmap",
+      "title": "Star Citizen Starmap: A Journey through a WebGL project",
       "email": "b@turbulent.ca",
       "name": "Benoit Beauséjour",
       "url": "b@turbulent.ca",
-      "synopsis": "Benoit is going to show how he built StarCitizen using modern js goodness in the form of ThreeJS, TypeScript, ES6, SVG and WebGL",
+      "synopsis": "In this lightning talk the team from Turbulent will go through the lessons learned building a large-scale WebGL project. Anecdotes, stack & tech choices, the good and the bad.",
       "links": [{
          "title": "Starmap project website",
          "url": "https://robertsspaceindustries.com/starmap"
       }, {
          "title": "Github",
          "url": "https://github.com/bbeausej"
+      }, {
+         "title": "Turbulent",
+         "url": "https://turbulent.ca"
       }]
    }]
 }]
