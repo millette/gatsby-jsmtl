@@ -1626,4 +1626,25 @@
          "url": "https://turbulent.ca"
       }]
    }]
+}, {
+   "num": 63,
+   "title": "TestingCeption",
+   "on": "20160510",
+   "singleSession": true,
+   "specialevent": "smooch-beer.html",
+   "blurb": "Join us for a training session with Arnaud Buchholtz performing some magic with Sinon.JS.",
+   "speakers": [{
+      "title": "Mocking stuff, in a good way.",
+      "email": "arnaud.buchholz@gmail.com",
+      "name": "Arnaud Buchholtz",
+      "url": "arnaud.buchholz@gmail.com",
+      "synopsis": "In this talk, Arnauld will show us key parts of Sinon.JS, specifically introducing one of it's most useful parts, the sinon.spy() function.",
+      "links": [{
+         "title": "Training Functions Stub",
+         "url": "https://github.com/ArnaudBuchholz/training-functions-stub"
+      }, {
+         "title": "Personal Github",
+         "url": "https://github.com/ArnaudBuchholz"
+      }]
+   }]
 }]
