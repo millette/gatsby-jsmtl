@@ -1632,13 +1632,13 @@
    "on": "20160510",
    "singleSession": true,
    "specialevent": "smooch-beer.html",
-   "blurb": "Join us for a training session with Arnaud Buchholtz performing some magic with Sinon.JS.",
+   "blurb": "Join us for a training session with Arnaud Buchholz performing some magic with Sinon.JS.",
    "speakers": [{
       "title": "Mocking stuff, in a good way.",
-      "email": "arnaud.buchholz@gmail.com",
-      "name": "Arnaud Buchholtz",
+      "email": "arnaud.buchholz@free.fr",
+      "name": "Arnaud Buchholz",
       "url": "arnaud.buchholz@gmail.com",
-      "synopsis": "In this talk, Arnauld will show us key parts of Sinon.JS, specifically introducing one of it's most useful parts, the sinon.spy() function.",
+      "synopsis": "In this talk, Arnaud will show us key parts of Sinon.JS, specifically introducing one of it's most useful parts, the sinon.spy() function.",
       "links": [{
          "title": "Training Functions Stub",
          "url": "https://github.com/ArnaudBuchholz/training-functions-stub"
