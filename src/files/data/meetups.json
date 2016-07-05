@@ -1647,4 +1647,53 @@
          "url": "https://github.com/ArnaudBuchholz"
       }]
    }]
+}, {
+   "num": 64,
+   "title": "3D->2D, Websockets, oh my!",
+   "on": "20160614",
+   "singleSession": false,
+   "specialevent": false,
+   "blurb": "Frederic will tell us about all things websockets, and Martin will show us what it takes to go from 3D to 2D. Don't blink, or you'll miss it!",
+   "speakers": [{
+      "title": "Getting the most out of Sockets",
+      "email": "fredericcharette@gmail.com",
+      "name": "Frederic Charette",
+      "url": "fredericcharette@gmail.com",
+      "synopsis": "Sockets are light, powerful and all-around fun but they can be hard to work with. In this presentation we will visit socket communication concepts in Node.js and see how we can push performances to the limit with Kalm. We'll try out two demos: a micro-service implementation and a browser game integration that leverages websockets.",
+      "links": [{
+         "title": "Kalm",
+         "url": "https://github.com/fed135/Kalm"
+      }]
+   }, {
+      "title": "Autopsy of an unconventional Javascript project",
+      "email": "m.vezina@la-grange.ca",
+      "name": "Martin Vezina",
+      "url": "m.vezina@la-grange.ca",
+      "synopsis": "This is the story of how a Javascript experiment became a t-shirt through a successful Kickstarter. I will describe what I went through to make this very unusual project, which involves a lot of different things from Three.js, Adobe Illustrator scripting, vector drawing and manipulation through code, plus all the unforeseen difficulties and how I overcame them. Oh, and orbital mechanics.",
+      "links": [{
+         "title": "Github",
+         "url": "https://github.com/mgvez"
+      }, {
+         "title": "Twitter",
+         "url": "https://twitter.com/m_vezina"
+      }]
+   }]
+}, {
+   "num": 65,
+   "title": "",
+   "on": "20160713",
+   "singleSession": false,
+   "specialevent": "shutterstock-beer.html",
+   "blurb": "Join us for another edition of js-montreal with Lichen on Vue.js and pizza from Shutterstock.",
+   "speakers": [{
+      "title": "Getting the most out of Sockets",
+      "email": "ageissmann@lichencommunications.com",
+      "name": "Alexandre Geissmann",
+      "url": "ageissmann@lichencommunications.com",
+      "synopsis": "Vue.js",
+      "links": [{
+         "title": "Vue.js",
+         "url": "https://vuejs.org/"
+      }]
+   }]
 }]
