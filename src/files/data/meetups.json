@@ -1680,20 +1680,33 @@
    }]
 }, {
    "num": 65,
-   "title": "",
+   "title": "Vues and Unix Pipes, what do they have in common?",
    "on": "20160713",
    "singleSession": false,
-   "specialevent": "shutterstock-beer.html",
-   "blurb": "Join us for another edition of js-montreal with Lichen on Vue.js and pizza from Shutterstock.",
+   "specialevent": false,
+   "blurb": "Join us for another edition of js-montreal with Lichen on Vue.js and Ruy on his tool, iPipeTo.",
    "speakers": [{
-      "title": "Getting the most out of Sockets",
+      "title": "How to be super agile with Vue.js + Hype",
       "email": "ageissmann@lichencommunications.com",
       "name": "Alexandre Geissmann",
       "url": "ageissmann@lichencommunications.com",
-      "synopsis": "Vue.js",
+      "synopsis": "Discover how to build amazing and flexible webapps using Vue.js and Hype. This speech will introduce an unusual workflow to quickly get running some apps, in a small-team context. We’ll also be speaking of production pipeline and requirements (such as timeframe, team communication, client, etc;), how they’re shaping the way we build the Web, and how to code javascript to embrace this purpose.",
       "links": [{
          "title": "Vue.js",
          "url": "https://vuejs.org/"
+      }, {
+         "title": "Hype Wysiwyg Editor",
+         "url": "http://tumult.com/hype/"
+      }]
+   }, {
+      "title": "iPipeTo -- Story of a Unix Pipe",
+      "email": "ruyadorno@gmail.com",
+      "name": "Ruy Adorno",
+      "url": "ruyadorno@gmail.com",
+      "synopsis": "Ruy will tell us the story of how he spiced boring old Unix pipes into a wonder of modern command line foo, with his tool iPipeTo.",
+      "links": [{
+         "title": "iPipeTo",
+         "url": "https://github.com/ruyadorno/ipt"
       }]
    }]
 }]
