@@ -1709,4 +1709,38 @@
          "url": "https://github.com/ruyadorno/ipt"
       }]
    }]
+}, {
+   "num": 66,
+   "title": "",
+   "on": "20160809",
+   "singleSession": false,
+   "specialevent": false,
+   "blurb": "Looks like global warming is a thing. Maybe JavaScript can help?",
+   "speakers": [{
+      "title": "Building data-driven React applications with Relay & GraphQL",
+      "email": "mgiroux0@gmail.com",
+      "name": "Marc-Andre Giroux",
+      "url": "http://mgiroux.me",
+      "synopsis": "React has proven itself as a really powerful way to build complex user interfaces by using declarative and predictive components. But what about data-fetching? Relay is a JavaScript framework for building data-driven React applications. It makes data fetching simple for developers by co-locating your React components with their data needs, fetching and handling data using a powerful query language, GraphQL.",
+      "links": [{
+         "title": "Personal Website",
+         "url": "http://mgiroux.me"
+      }, {
+         "title": "Relay JS",
+         "url": "https://facebook.github.io/relay/"
+      }, {
+         "title": "GraphQL",
+         "url": "https://facebook.github.io/react/blog/2015/05/01/graphql-introduction.html"
+      }]
+   }, {
+      "title": "iPipeTo -- Story of a Unix Pipe",
+      "email": "rami.sayar@microsoft.com",
+      "name": "Rami Sayar",
+      "url": "http://twitter.com/ramisayar",
+      "synopsis": "React has been named the front-end library to learn in 2016 however few people talk about the React without mentioning Flux (or Redux or React Native or Relay). In this talk, we will explore the ecosystem of tools and libraries that surround React. We will look at the various Flux implementations (including a short explanation of Flux) like Redux, at some of the React routing libraries, at some of the reactive database or reactive API libraries and finally at everyday tools and techniques that make the React developer happy. By the end of this talk, you will have a greater grasp of the ecosystem and leave with new tools in your developer arsenal.",
+      "links": [{
+         "title": "Personal Website",
+         "url": "http://ramisayar.com"
+      }]
+   }]
 }]
