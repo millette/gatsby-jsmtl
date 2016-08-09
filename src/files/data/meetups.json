@@ -1711,10 +1711,10 @@
    }]
 }, {
    "num": 66,
-   "title": "",
+   "title": "Blah",
    "on": "20160809",
    "singleSession": false,
-   "specialevent": false,
+   "specialevent": "shutterstock-beer.html",
    "blurb": "Looks like global warming is a thing. Maybe JavaScript can help?",
    "speakers": [{
       "title": "Building data-driven React applications with Relay & GraphQL",
