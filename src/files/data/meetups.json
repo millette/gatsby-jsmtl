@@ -1711,7 +1711,7 @@
    }]
 }, {
    "num": 66,
-   "title": "Blah",
+   "title": "Global Javascript",
    "on": "20160809",
    "singleSession": false,
    "specialevent": "shutterstock-beer.html",
@@ -1741,6 +1741,37 @@
       "links": [{
          "title": "Personal Website",
          "url": "http://ramisayar.com"
+      }]
+   }]
+}, {
+   "num": 67,
+   "title": "",
+   "on": "20160913",
+   "singleSession": false,
+   "specialevent": "ssense-beer.html",
+   "blurb": "Autumn is here, it's time for hoodies, comfy jackets and long sleeves. Javascript makes for a great blanket.",
+   "speakers": [{
+      "title": "The Node Cluster API, what is it good for?",
+      "email": "michaelsanford0@gmail.com",
+      "name": "Michael Sanford",
+      "url": "michaelsanford0@gmail.com",
+      "synopsis": "Michael will tell us about, and dismistify the secrets of multi-threaded Javascript. The Node cluster module is a prime tool and example for show casing the capabilities of modern Javascript and NodeJS.",
+      "links": [{
+         "title": "Node Cluster API docs",
+         "url": "https://nodejs.org/api/cluster.html"
+      }]
+   }, {
+      "title": "All about SOAJS",
+      "email": "alain.gaeremynck@pj.ca",
+      "name": "Alain Gaeremynck",
+      "url": "alain.gaeremynck@pj.ca",
+      "synopsis": "Soajs (soajs.org) is both a micro service framework and a operation management platform that sits on top of Node js for application development and on top of dockers and Kubernetes for deployment management.  Out of the box it provides mapping for input parameter validation, response building and error management.  On the operation side it allows automated deployment, service discovery and calling. Alain is going to tell us all about it.",
+      "links": [{
+         "title": "SOAJS Website",
+         "url": "http://soajs.org/#/"
+      }, {
+         "title": "Yellow Pages",
+         "url": "http://www.pagesjaunes.ca/"
       }]
    }]
 }]
