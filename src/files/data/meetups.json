@@ -1774,4 +1774,25 @@
          "url": "http://www.pagesjaunes.ca/"
       }]
    }]
+}, {
+   "num": 68,
+   "title": "",
+   "on": "20161011",
+   "singleSession": true,
+   "specialevent": "ubisoft-beer.html",
+   "blurb": "Let's take a drive through Javascript, the frameworks are turning beautiful colors this time of year.",
+   "speakers": [{
+      "title": "Building a faceted catalog of video game assets using ExtJS and Elasticsearch",
+      "email": "karim.besbes@ubisoft.com",
+      "name": "Karim Besbes",
+      "url": "karim.besbes@ubisoft.com",
+      "synopsis": "At the Ubisoft Technology Group we have created a platform for video game productions to share game assets, in-game footage and animations across the entire company. Ease of search and good UX were incredibly important for an audience of artists and creative types. This is where the Web and a powerful Javascript framework comes in; we chose ExtJS for its robustness and scalability. In this session, we will showcase two different applications and dive into the technical aspects of designing the UI for a faceted search based on Elasticsearch.",
+      "links": [{
+         "title": "ExtJS Homepage",
+         "url": "https://www.sencha.com/products/extjs/#overview"
+      }, {
+         "title": "Elastic Search Homepage",
+         "url": "https://www.elastic.co/products/elasticsearch"
+      }]
+   }]
 }]
