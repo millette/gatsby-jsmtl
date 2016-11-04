@@ -1795,4 +1795,28 @@
          "url": "https://www.elastic.co/products/elasticsearch"
       }]
    }]
+}, {
+   "num": 69,
+   "title": "React Native, 3D",
+   "on": "20161108",
+   "singleSession": false,
+   "blurb": "The Javascript invasion continues: Native applications and 3D",
+   "speakers": [{
+      "title": "Introduction to React Native",
+      "email": "rami.sayar@microsoft.com",
+      "name": "Rami Sayar",
+      "url": "https://ramisayar.com/",
+      "synopsis": "React has been named the front-end library to learn in 2016! React Native has also picked up tremendous steam as a way to build cross-platform apps with React. In this talk, Rami will do a quick 5 minute introduction to React's core concepts. Following, Rami will introduce React Native, discuss the differences between React & React Native, and show you how to build a simple Android application. By the end of this talk, you will have a greater grasp of the ecosystem and leave with new tools in your developer arsenal.<br><br><i><a href='https://twitter.com/ramisayar'>Rami</a> is a Senior Technical Evangelist at Microsoft Canada</i>",
+      "links": [{
+         "title": "React Native",
+         "url": "https://facebook.github.io/react-native/"
+      }]
+   },{
+      "title": "3D on the Web",
+      "email": "denis.grigor@autodesk.com",
+      "name": "Denis Grigor",
+      "url": "https://github.com/apprentice3d",
+      "synopsis": "The Web was always flat and all efforts to use effects and some interactivity to mimic a new dimension to the Web is commendable, but not always enough. The relative recent possibility of exposing the power of the graphics cards to the browsers, opened a new door and now allows to transform the flat Web into a 3D Web. Ranging from the raw WebGL, to free and commercial 3D viewers - let us explore why it might be the next big thing.",
+      "links": []
+   }]
 }]
