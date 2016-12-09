@@ -1819,4 +1819,27 @@
       "synopsis": "The Web was always flat and all efforts to use effects and some interactivity to mimic a new dimension to the Web is commendable, but not always enough. The relative recent possibility of exposing the power of the graphics cards to the browsers, opened a new door and now allows to transform the flat Web into a 3D Web. Ranging from the raw WebGL, to free and commercial 3D viewers - let us explore why it might be the next big thing.",
       "links": []
    }]
+}, {
+   "num": 70,
+   "title": "2016 in Summary",
+   "on": "20161213",
+   "singleSession": true,
+   "blurb": "Join us for a a review of a magnificent year of Javascript and a little exploration of Node's internals.",
+   "speakers": [{
+      "title": "Hacking on Node for fun and profit",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "https://github.com/ckm2k1",
+      "synopsis": "We all use Node.js as a platform to run our servers, clients, bots, quick and dirty shell scripts and many other things. But few crack open Node itself and peek under the hood. No more! We're going to look at some key architecture concepts, Node's code layout, some cool hacks that can be easily done in an afternoon and finally work out how to writing native addons.",
+      "links": [{
+         "title": "Node.js",
+         "url": "https://nodejs.org/en/"
+      }, {
+         "title": "Node.js Source",
+         "url": "https://github.com/nodejs/node"
+      }, {
+         "title": "Writing node addons",
+         "url": "https://nodejs.org/api/addons.html"
+      }]
+   }]
 }]
