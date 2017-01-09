@@ -1842,4 +1842,24 @@
          "url": "https://nodejs.org/api/addons.html"
       }]
    }]
+}, {
+   "num": 71,
+   "title": "The year of JavaScript",
+   "on": "20170110",
+   "singleSession": true,
+   "blurb": "Join us in opening 2017 with a fresh look at Typescript through the eyes of a Ubisoft framework.",
+   "speakers": [{
+      "title": "From desktop to web app using Typescript",
+      "email": "assane.gueye@ubisoft.com",
+      "name": "Assane Gueye",
+      "url": "assane.gueye@ubisoft.com",
+      "synopsis": "Few years ago, we developed a collaborative tool in WPF intended for production teams. Sharing and communication of design intentions, missions, layout and structure of levels in the game world. That desktop app served as a beta to validate the need of such a system, and we agreed to go further with a web based version. A single page app with rich controls, aesthetic visuals and no more installation process. We decided to work with Typescript taking benefit, among other things, of its type checks, compilation time error detection, frequent updates and growing community. This talk will showcase our new product, its functionalities and our usage of multiple technologies with Typescript as a center point to reach our goal.",
+      "links": [{
+         "title": "Typescript",
+         "url": "https://www.typescriptlang.org/"
+      }, {
+         "title": "Ubisoft",
+         "url": "https://www.ubisoft.com/fr-CA/"
+      }]
+   }]
 }]
