@@ -1862,4 +1862,31 @@
          "url": "https://www.ubisoft.com/fr-CA/"
       }]
    }]
+}, {
+   "num": 72,
+   "title": "ES2017 and Beyond",
+   "on": "20170214",
+   "singleSession": false,
+   "blurb": "JavaScript is the language of Love. It's love knows no types.",
+   "speakers": [{
+      "title": "How Async/Await will change JavaScript forever",
+      "email": "marekz@gmail.com",
+      "name": "Marek Zaluski",
+      "url": "marekz@gmail.com",
+      "synopsis": "The async/await keywords are one of the most powerful upcoming ECMAScript feature. Let's learn how they work, how they relate to promises and generators, and why they're a game-changer for writing async code. And we'll review the key concepts about promises that you need to know to get a head start on using these new features.",
+      "links": [{
+         "title": "Personal website",
+         "url": "www.marekzaluski.com"
+      }]
+   }, {
+      "title": "Debugging Javascript for fun and profit",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "ckm2k1@gmail.com",
+      "synopsis": "A quick 15min talk about some cool techniques for debugging large projects in the Chrome DevTools console.",
+      "links": [{
+         "title": "DevTools Documentation",
+         "url": "https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference"
+      }]
+   }]
 }]
