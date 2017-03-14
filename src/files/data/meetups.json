@@ -1889,4 +1889,32 @@
          "url": "https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference"
       }]
    }]
+}, {
+   "num": 73,
+   "title": "React and CPUs",
+   "on": "20170314",
+   "specialevent": "findor-beer.html",
+   "singleSession": false,
+   "blurb": "What do CPU profiling and React have in common? js-montreal of course.",
+   "speakers": [{
+      "title": "Demystifying CPU Profiling in Node.js",
+      "email": "christophe@busbud.com",
+      "name": "Christophe Naud-Dulude",
+      "url": "christophe@busbud.com",
+      "synopsis": "Node's event-driven and single threaded architecture enables easy concurrency and high throughput without much effort but comes at a cost. Synchronous and CPU intensive operations can lead to degraded performance and even completely block the process. CPU profiling allows developers to find blocking functions and deal with them accordingly. In this talk 'learn by example' talk, we'll look at some real issues that were identified and fixed thanks to CPU profiling.",
+      "links": [{
+         "title": "Github account",
+         "url": "https://github.com/Chris911"
+      }]
+   }, {
+      "title": "Introduction to React Native ",
+      "email": "rami.sayar@microsoft.com",
+      "name": "Rami Sayar",
+      "url": "http://wootstudio.ca",
+      "synopsis": "React has been named the front-end library to learn in 2016! React Native has also picked up tremendous steam as a way to build cross-platform apps with React. In this talk, Rami will do a quick 5 minute introduction to React's core concepts. Following, Rami will introduce React Native, discuss the differences between React & React Native, and show you how to build a simple Android application. By the end of this talk, you will have a greater grasp of the ecosystem and leave with new tools in your developer arsenal. ",
+      "links": [{
+         "title": "React Native Offcial Website",
+         "url": "https://facebook.github.io/react-native/"
+      }]
+   }]
 }]
