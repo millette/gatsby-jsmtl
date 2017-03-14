@@ -1893,7 +1893,6 @@
    "num": 73,
    "title": "React and CPUs",
    "on": "20170314",
-   "specialevent": "findor-beer.html",
    "singleSession": false,
    "blurb": "What do CPU profiling and React have in common? js-montreal of course.",
    "speakers": [{
