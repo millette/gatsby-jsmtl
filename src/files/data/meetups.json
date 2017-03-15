@@ -1906,14 +1906,14 @@
          "url": "https://github.com/Chris911"
       }]
    }, {
-      "title": "Introduction to React Native ",
+      "title": "Building Universal JavaScript Applications with React",
       "email": "rami.sayar@microsoft.com",
       "name": "Rami Sayar",
       "url": "http://wootstudio.ca",
-      "synopsis": "React has been named the front-end library to learn in 2016! React Native has also picked up tremendous steam as a way to build cross-platform apps with React. In this talk, Rami will do a quick 5 minute introduction to React's core concepts. Following, Rami will introduce React Native, discuss the differences between React & React Native, and show you how to build a simple Android application. By the end of this talk, you will have a greater grasp of the ecosystem and leave with new tools in your developer arsenal. ",
+      "synopsis": "Rami will show us how to build universal, isomorphic JavaScript apps using React. We'll talk about strucutre, components, code sharing and other details of building robust JS code across front and back-ends.",
       "links": [{
-         "title": "React Native Offcial Website",
-         "url": "https://facebook.github.io/react-native/"
+         "title": "React Offcial Website",
+         "url": "https://facebook.github.io/react/"
       }]
    }]
 }]
