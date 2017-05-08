@@ -1917,24 +1917,17 @@
       }]
    }]
 }, {
-   "num": 74,
-   "title": "ThunderTalks",
-   "on": "20170411",
-   "singleSession": false,
-   "blurb": "April showers bring thunder talks! They're like lightening talks, but slower.",
+   "num": 75,
+   "title": "The Wild",
+   "on": "20170509",
+   "singleSession": true,
+   "blurb": "Is ES6 considered May flowers? Yes, we'll go with that.",
    "speakers": [{
-      "title": "Standardizing READMEs for great good",
-      "email": "richard.littauer@gmail.com",
-      "name": "Richard Littauer",
-      "url": "richard.littauer@gmail.com",
-      "synopsis": " If no one downloads or uses your npm module, you might need better documentation. Your README.md is the first access point for your code: I'll talk about how to use the standard-readme specification to make sure your readmes are high quality, and how the spec is already being used by hundreds of repositories to stop bike-shedding and save time. I'll demo a standard-readme generator and a linter, to help you write your readme. I'll also show how search can be improved by grabbing terms from the description and background, and highlight a bunch of cool ways having standard readme benefits the community as a whole.",
-      "links": []
-   }, {
-      "title": "An opinionated overview of Feathers, a minimalist application framework",
-      "email": "slauzon@mylo.ai",
-      "name": "Shawn Lauzon",
-      "url": "slauzon@mylo.ai",
-      "synopsis": "A short overview of feathers, especially the hooks programming model and how we at Mylo use them to build modular services. We use lots of Ramda and will be giving examples using a very basic, functional programming style. Let me know how much time I will be allotted and I'll build the slides appropriately.",
+      "title": "ES6 From the Wild: An Exploration",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "ckm2k1@gmail.com",
+      "synopsis": "ES6 has been making serious progress into our javascript lives. With that comes experience, bugs, stories, tips and tricks. I'll share some of my experience, bugs and tips encoutered while using ES6 in production on a medium to large application.",
       "links": []
    }]
 }]
