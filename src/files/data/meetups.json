@@ -2044,4 +2044,24 @@
          "url": "https://www.ecma-international.org/ecma-262/6.0/"
       }]
    }]
+}, {
+   "num": 80,
+   "title": "React'in",
+   "on": "20170913",
+   "singleSession": true,
+   "blurb": "React Native brings Javascript goodies to the native app world. Let's explore how to get started with it.",
+   "speakers": [{
+      "title": "React-Native intro and quirks",
+      "email": "mathieu.k.legault@gmail.com",
+      "name": "Mathieu Legault",
+      "url": "mathieu.k.legault@gmail.com",
+      "synopsis": "ntroduction to react-native and overview of some topics you might encounter (Debug, Offline, FlexBox, Images, app size) while building an app.",
+      "links": [{
+         "title": "Demo Kitten App",
+         "url": "https://github.com/MatMath/react-native_kittenDemoApp"
+      }, {
+         "title": "React Native",
+         "url": "https://facebook.github.io/react-native/"
+      }]
+   }]
 }]
