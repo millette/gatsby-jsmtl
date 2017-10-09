@@ -2065,4 +2065,27 @@
          "url": "https://facebook.github.io/react-native/"
       }]
    }]
+}, {
+   "num": 81,
+   "title": "Art imitating life",
+   "on": "20171010",
+   "singleSession": true,
+   "blurb": "Art and Javascript, sitting in a tree...",
+   "speakers": [{
+      "title": "Using JavaScript and other web technologies, to create a physical public art installation, that produce kindness and compassion.",
+      "email": "francois@pliab.com",
+      "name": "François Pliab",
+      "url": "francois@pliab.com",
+      "synopsis": "Utiliser l’écosystème JavaScript de façon créative pour donner vie à une « machine à bienveillance » : c’est l’expérience sociale qu’a réalisée Ensemble-Ensemble au métro St-Laurent à Montréal, transformant une place poussiéreuse et bétonnée en un lieu où des passants échangent, rient, se questionnent et discutent. Dans cette présentation il sera question des processus qui ont conduit à la création de cette installation interactive utilisant des technologies variées : electron, nodejs, es6, sass, kinect sdk, arduino, computer-vision, etc. Comment est-il possible de créer des interactions fortes et signifiantes avec le public en s’appuyant sur des technologies web?",
+      "links": [{
+         "title": "La machine à bienveillance / The compassion machine",
+         "url": "http://km3.quartierdesspectacles.com/fr/oeuvre/la-machine-a-bienveillance"
+      }, {
+         "title": "Ensemble-Ensemble",
+         "url": "https://www.facebook.com/ensemblensemble/"
+      }, {
+         "title": "Pliab",
+         "url": "http://pliab.com/"
+      }]
+   }]
 }]
