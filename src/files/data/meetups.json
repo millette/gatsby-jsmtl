@@ -2088,4 +2088,34 @@
          "url": "http://pliab.com/"
       }]
    }]
+}, {
+   "num": 82,
+   "title": "Headless, progressive Javascript. Like a Zombie.",
+   "on": "20171114",
+   "singleSession": false,
+   "blurb": "Testing with headless Chrome and Progressive web apps.",
+   "speakers": [{
+      "title": "Unsupervised testing with Chrome Headless and Puppeteer",
+      "email": "mats.ljunggren@boozang.com",
+      "name": "Mats Ljunggren",
+      "url": "mats.ljunggren@boozang.com",
+      "synopsis": "Running unsupervised end-to-end testing in the browser is great for both monitoring and QA, and can save you tons of time and help you avoid bugs. Unfortunately, it used to require PhantomJS or browsers configured with virtual displays (like Xvfb) that made it fairly difficult and time-consuming. This has recently been made much simpler with Chrome supporting \"headless mode\", and with Google creating the npm package Puppeteer it is even simpler. Now the Chrome browser can be remotely controlled with just a few lines of Javascript code. I will show you some useful hands-on code examples.",
+      "links": [{
+         "title": "Chrome Headless",
+         "url": "https://developers.google.com/web/updates/2017/04/headless-chrome"
+      }, {
+         "title": "Puppeteer",
+         "url": "https://github.com/GoogleChrome/puppeteer"
+      }]
+   }, {
+      "title": "Introduction to Progressive Web Apps",
+      "email": "sylvhama@gmail.com",
+      "name": "Sylvain Hamann",
+      "url": "sylvhama@gmail.com",
+      "synopsis": "As we know, responsive web sites are no longer enough. We have to make sure it works offline, multiple devices, resolution, rendering capabilities and every other condition various browsing machines can throw at us nowadays. Sylvain will show us the dark art of turning your responsive website to a Progressive web app capable of the above.",
+      "links": [{
+         "title": "Progressive web apps",
+         "url": "https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/"
+      }]
+   }]
 }]
