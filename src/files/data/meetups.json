@@ -2118,4 +2118,43 @@
          "url": "https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/"
       }]
    }]
+}, {
+   "num": 83,
+   "title": "Merry JavaScript to everyone!",
+   "on": "20171211",
+   "singleSession": false,
+   "blurb": "",
+   "speakers": [{
+      "title": "Down the SVG Rabbit Hole: Optimized Workflow and Advanced SVG Effects",
+      "email": "r@robynlarsen.ca",
+      "name": "Robyn Larsen",
+      "url": "r@robynlarsen.ca",
+      "synopsis": "We use Scalable Vector Graphics (SVGs) every day, but how well do we really understand it? More often than not, we are merely scratching the surface of a large and complicated discipline. Most developers and designers don’t realize how powerful and useful SVGs are, you will be surprised at how deep the rabbit hole goes. ",
+      "links": [{
+         "title": "Robyn Larsen - Personal site",
+         "url": "http://robynlarsen.ca/"
+      }, {
+         "title": "Slides",
+         "url": "http://robynlarsen.ca/speaking/svg/#/0/2"
+      }, {
+         "title": "SVG",
+         "url": "https://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
+      }]
+   }, {
+      "title": "JavaScipt: 2017",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "ckm2k1@gmail.com",
+      "synopsis": "A quick discussion of what came and went in 2017. Frameworks, APIs, browsers, compilation targets. It's been a great year for JS and we'll take a last critical look at what we produced before moving on to another year.",
+      "links": [{
+         "title": "ECMAScript Spec",
+         "url": "https://www.ecma-international.org/ecma-262/6.0/"
+      }, {
+         "title": "Best frameworks",
+         "url": "https://hackernoon.com/5-best-javascript-frameworks-in-2017-7a63b3870282"
+      }, {
+         "title": "Trends",
+         "url": "https://medium.com/commit-push/the-top-rising-javascript-trends-to-watch-in-2017-86d8e87db3b3"
+      }]
+   }]
 }]
