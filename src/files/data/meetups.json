@@ -2157,4 +2157,25 @@
          "url": "https://medium.com/commit-push/the-top-rising-javascript-trends-to-watch-in-2017-86d8e87db3b3"
       }]
    }]
+}, {
+   "num": 84,
+   "title": "And a Happy New Year",
+   "on": "20180109",
+   "specialevent": "behaviour-interactive-beer.html",
+   "singleSession": true,
+   "blurb": "It's a new year, and new challenges. One of the hardest is building stable, fast and interactive web apps. Join us for a demonstration.",
+   "speakers": [{
+      "title": "Workbox - a tool for building a Progressive Web Application",
+      "email": "k.artemov@gmail.com",
+      "name": "Kostyantyn Artemov",
+      "url": "k.artemov@gmail.com",
+      "synopsis": "Workbox is a collection of libraries and build tools that make it easy to store your website’s files locally, on your users’ devices. If you want to focus on your website logic, leave creation of an optimal ServiceWorker with sophisticated caching strategies to the Workbox tool.",
+      "links": [{
+         "title": "Workbox - Tools for progressive web apps",
+         "url": "https://github.com/GoogleChrome/workbox"
+      }, {
+         "title": "PWA",
+         "url": "https://developers.google.com/web/progressive-web-apps/"
+      }]
+   }]
 }]
