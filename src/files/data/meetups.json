@@ -2178,4 +2178,31 @@
          "url": "https://developers.google.com/web/progressive-web-apps/"
       }]
    }]
+}, {
+   "num": 85,
+   "title": "",
+   "on": "20180213",
+   "specialevent": "glossier-beer.html",
+   "singleSession": true,
+   "blurb": "We always talk about JS, but what about everything around it? The hammers, chisels and screwdrivers of programming? What about the little things that make dev easier, and more pleasant, less swear-y? Let's find out.",
+   "speakers": [{
+      "title": "Modern Dev Setup",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "ckm2k1@gmail.com",
+      "synopsis": "Tools, shortcuts, keyboards, shells, emacs, and the CapsLock keys. Let's look at a modern development setup for the web.",
+      "links": [{
+         "title": "Fish Shell",
+         "url": "https://fishshell.com/"
+      }, {
+         "title": "iTerm2",
+         "url": "https://www.iterm2.com/"
+      }, {
+         "title": "Sublime",
+         "url": "https://www.sublimetext.com/"
+      }, {
+         "title": "tmux",
+         "url": "https://github.com/tmux/tmux/wiki"
+      }]
+   }]
 }]
