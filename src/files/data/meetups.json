@@ -2205,4 +2205,12 @@
          "url": "https://github.com/tmux/tmux/wiki"
       }]
    }]
+}, {
+   "num": 86,
+   "title": "Cool talks are coming soon!",
+   "on": "20180312",
+   "specialevent": false,
+   "singleSession": false,
+   "blurb": "Preparing for March.",
+   "speakers": []
 }]
