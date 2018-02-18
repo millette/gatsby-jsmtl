@@ -2212,5 +2212,28 @@
    "specialevent": false,
    "singleSession": false,
    "blurb": "Preparing for March.",
-   "speakers": []
+   "speakers": [{
+      "title": "Secure Your Single Page Application With Auth0",
+      "email": "joel.lord@auth0.com",
+      "name": "Joel Lord",
+      "url": "https://auth0.com/",
+      "synopsis": "A quick demo that shows the attendees how to secure an SPA (could be React, Angular or VueJs) using Auth0. Can be adapted based on the time available for the presentation.",
+      "links": [{
+         "title": "Auth0",
+         "url": "https://auth0.com/"
+      }, {
+         "title": "SPA",
+         "url": "https://en.wikipedia.org/wiki/Single-page_application"
+      }]
+   }, {
+      "title": "Web Workers",
+      "email": "sommerquentin67@gmail.com",
+      "name": "Quentin Sommer",
+      "url": "sommerquentin67@gmail.com",
+      "synopsis": "Description coming shortly.",
+      "links": [{
+         "title": "Web Workers",
+         "url": "https://en.wikipedia.org/wiki/Web_worker"
+      }]
+   }]
 }]
