@@ -2207,11 +2207,11 @@
    }]
 }, {
    "num": 86,
-   "title": "Cool talks are coming soon!",
+   "title": "Security, Web Workers, oh my!",
    "on": "20180312",
    "specialevent": false,
    "singleSession": false,
-   "blurb": "Preparing for March.",
+   "blurb": "JavaScript March'es on. I'll show myself out...",
    "speakers": [{
       "title": "Secure Your Single Page Application With Auth0",
       "email": "joel.lord@auth0.com",
