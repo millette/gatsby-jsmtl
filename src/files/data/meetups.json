@@ -2236,4 +2236,32 @@
          "url": "https://en.wikipedia.org/wiki/Web_worker"
       }]
    }]
+}, {
+   "num": 87,
+   "title": "Spring is in the air!",
+   "on": "20180410",
+   "specialevent": false,
+   "singleSession": false,
+   "blurb": "Time to shake the winter cobwebs and pour a nice cup of JavaScript to get the season going.",
+   "speakers": [{
+      "title": "Maintaining React Components",
+      "email": "kevinb7@gmail.com",
+      "name": "Kevin Barabash",
+      "url": "kevinb7@gmail.com",
+      "synopsis": "Kevin will show us how to use flow to facilitate changing a components props (renaming/deleting/changing type) and how to use aphrodite (CSS in JS library) with flow to control which styles can be passed to components.",
+      "links": [{
+         "title": "Facebook Flow",
+         "url": "https://flow.org/"
+      }, {
+         "title": "Aphrodite",
+         "url": "https://github.com/Khan/aphrodite"
+      }]
+   }, {
+      "title": "Awaiting final confirmation.",
+      "email": "",
+      "name": "",
+      "url": "",
+      "synopsis": "",
+      "links": []
+   }]
 }]
