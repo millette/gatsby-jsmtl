@@ -2257,11 +2257,14 @@
          "url": "https://github.com/Khan/aphrodite"
       }]
    }, {
-      "title": "Awaiting final confirmation.",
-      "email": "",
-      "name": "",
-      "url": "",
-      "synopsis": "",
-      "links": []
+      "title": "What's the difference between a Resolved, Settled, and Fulfilled promise in Javascript?",
+      "email": "marekz@gmail.com",
+      "name": "Marek Zaluski",
+      "url": "http://www.marekzaluski.com/",
+      "synopsis": "In this talk we try to resolve some important questions around Javascript promises. We'll settle the confusion once and for all, and fulfill our desire for better understanding.",
+      "links": [{
+         "title": "Promise API",
+         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+      }]
    }]
 }]
