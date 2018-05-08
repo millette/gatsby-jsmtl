@@ -2267,4 +2267,19 @@
          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
       }]
    }]
+}, {
+   "num": 88,
+   "title": "Spring is in the air!",
+   "on": "20180508",
+   "specialevent": false,
+   "singleSession": false,
+   "blurb": "Spring is in the air, and little JavaScript flowers are blooming.",
+   "speakers": [{
+      "title": "Coding Strategy as a Rookie",
+      "email": "alexchalk17@gmail.com",
+      "name": "Alex Chalk",
+      "url": "alexchalk17@gmail.com",
+      "synopsis": "Alex will talk about ways to approach coding that have been (or would have been) useful to me when I was starting out. Hopefully it will give senior devs some good ideas on how to maximize the effectiveness of more junior team members",
+      "links": []
+   }]
 }]
