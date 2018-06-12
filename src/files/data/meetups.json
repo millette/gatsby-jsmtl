@@ -2282,4 +2282,44 @@
       "synopsis": "Alex will talk about ways to approach coding that have been (or would have been) useful to me when I was starting out. Hopefully it will give senior devs some good ideas on how to maximize the effectiveness of more junior team members",
       "links": []
    }]
+}, {
+   "num": 89,
+   "title": "Get ready to generate!",
+   "on": "20180508",
+   "specialevent": false,
+   "singleSession": false,
+   "blurb": "Genrators and security, a wonderful combination.",
+   "speakers": [{
+      "title": "The Power of Generators",
+      "email": "jason.abz@gmail.com",
+      "name": "Jason McCarrell",
+      "url": "jason.abz@gmail.com",
+      "synopsis": "From abstracted testing to streaming data, generators provide a convenient framework for dealing with code step by step. We’ll look at why you should care about generators, how they work, when they should be used, and finally some fun things I’ve done with them.",
+      "links": [{
+         "title": "Iterators and Generators",
+         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"
+      }, {
+         "title": "Async Proposal",
+         "url": "https://github.com/tc39/proposal-async-iteration"
+      }, {
+         "title": "Tick Game",
+         "url": "https://github.com/funkjunky/generator-tick-game"
+      }, {
+         "title": "Redux Yield",
+         "url": "https://github.com/wzrdzl/redux-yield-effect"
+      }]
+   }, {
+      "title": "Prototype pollution attacks in NodeJS applications",
+      "email": "alexchalk17@gmail.com",
+      "name": "Olivier Arteau",
+      "url": "alexchalk17@gmail.com",
+      "synopsis": "Prototype pollution is a term that was coined many years ago in the JavaScript community to designate libraries that added extension methods to the prototype of base objects like \"Object\", \"String\" or \"Function\". This was very rapidly considered a bad practice as it introduced unexpected behavior in applications. In this presentation, we will analyze the problem of prototype pollution from a different angle. What if an attacker could pollute the prototype of the base object with his own value? What APIs allow such pollution? What can be done with it?",
+      "links": [{
+         "title": "Olivier Arteau",
+         "url": "https://nsec.io/speakers/#olivier-arteau"
+      }, {
+         "title": "Prototype Pollution",
+         "url": "https://github.com/HoLyVieR/prototype-pollution-nsec18"
+      }]
+   }]
 }]
