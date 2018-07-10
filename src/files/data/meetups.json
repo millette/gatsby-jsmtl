@@ -2322,4 +2322,31 @@
          "url": "https://github.com/HoLyVieR/prototype-pollution-nsec18"
       }]
    }]
+}, {
+   "num": 90,
+   "title": "Summer of Javascript",
+   "on": "20180710",
+   "specialevent": "invue-beer.html",
+   "singleSession": true,
+   "blurb": "Generators, but... async this time.",
+   "speakers": [{
+      "title": "Async Generators - Looking at the ES2018 Spec",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "ckm2k1@gmail.com",
+      "synopsis": "Building on Jason's talk from last meet-up, we'll look at Async Generators, a widely discussed feature documented in the new ES2018 spec. We'll look at some use cases and live examples.",
+      "links": [{
+         "title": "Iterators and Generators",
+         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"
+      }, {
+         "title": "Async Proposal",
+         "url": "https://github.com/tc39/proposal-async-iteration"
+      }, {
+         "title": "Babel Transform for async generators",
+         "url": "https://babeljs.io/docs/en/babel-plugin-syntax-async-generators.html"
+      }, {
+         "title": "TC39 Spec for the feature.",
+         "url": "https://github.com/tc39/proposal-async-iteration"
+      }]
+   }]
 }]
