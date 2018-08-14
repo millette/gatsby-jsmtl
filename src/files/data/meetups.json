@@ -2349,4 +2349,26 @@
          "url": "https://github.com/tc39/proposal-async-iteration"
       }]
    }]
+}, {
+   "num": 91,
+   "title": "Heat of Javascript",
+   "on": "20180814",
+   "specialevent": false,
+   "singleSession": false,
+   "blurb": "All about the optimizations today. Memoization, network performance, lots of 'zations to go around.",
+   "speakers": [{
+      "title": "Network optimizations 101",
+      "email": "fredericcharette@gmail.com",
+      "name": "Frederic Charette",
+      "url": "fredericcharette@gmail.com",
+      "synopsis": "If you have an application that requires network requests to run, you might want to come watch this presentation. We'll cover congestion control, caching, batching and a couple advanced strategies to make your application faster all while saving on infrastructure costs.",
+      "links": []
+   }, {
+      "title": "Memoizing functions",
+      "email": "therealbenwiley@gmail.com",
+      "name": "Ben Wiley",
+      "url": "therealbenwiley@gmail.com",
+      "synopsis": "Ben will tell us all about the power of functional programming, specifically memoization and how it can help speed up frequently used side effect-less functions.",
+      "links": []
+   }]
 }]
