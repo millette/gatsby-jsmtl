@@ -2377,7 +2377,7 @@
    "on": "20180911",
    "specialevent": false,
    "singleSession": false,
-   "blurb": "All about the optimizations today. Memoization, network performance, lots of 'zations to go around.",
+   "blurb": "Syntax sugar and React-Native. Makes for excellent JS-Tea.",
    "speakers": [{
       "title": "No sugar please: a tearing down of abstractions",
       "email": "desmarais.michaud.david@gmail.com",
