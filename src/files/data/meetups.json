@@ -2371,4 +2371,35 @@
       "synopsis": "Ben will tell us all about the power of functional programming, specifically memoization and how it can help speed up frequently used side effect-less functions.",
       "links": []
    }]
+}, {
+   "num": 92,
+   "title": "Fall'in in love with Javascript",
+   "on": "20180911",
+   "specialevent": false,
+   "singleSession": false,
+   "blurb": "All about the optimizations today. Memoization, network performance, lots of 'zations to go around.",
+   "speakers": [{
+      "title": "No sugar please: a tearing down of abstractions",
+      "email": "desmarais.michaud.david@gmail.com",
+      "name": "David Demarais-Michaud",
+      "url": "desmarais.michaud.david@gmail.com",
+      "synopsis": "To demistify one of JS' hotest bits of syntax sugar and the familiar Promise, David will break down the mechanics of both async patterns by building his own naive variations of those language features.",
+      "links": [{
+         "title": "Async/Await",
+         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+      }, {
+         "title": "Promises",
+         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+      }]
+   }, {
+      "title": "Développer une App Tablette, Desktop & Web avec React&React-Native",
+      "email": "kreeves@turbulent.ca",
+      "name": "Kim Reeves",
+      "url": "kreeves@turbulent.ca",
+      "synopsis": "The folks at Turbulent have been working hard using React and React-Native to bring quality, cross platform JS products to market. Today, they will show us the patterns, structures and challenges of building large scale cross platform apps.",
+      "links": [{
+         "title": "React-Native",
+         "url": "https://facebook.github.io/react-native/"
+      }]
+   }]
 }]
