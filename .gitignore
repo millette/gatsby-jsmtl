@@ -5,3 +5,4 @@ src/files/vendor/twitter-bootstrap
 *.sublime-*
 .docpad.db
 public
+.cache
