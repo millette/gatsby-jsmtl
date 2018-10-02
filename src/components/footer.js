@@ -6,7 +6,7 @@ import img from '../files/img/gare-sticky-blue.png'
 
 export default (props) => (
   <div style={{ display: 'flex' }}>
-    <div style={{ flex: 'auto' }}>
+    <div style={{ flex: '1 1 0' }}>
       <h4>Contact</h4>
       <ul className='list-unstyled contact'>
         <li className='meetup'><a target='_blank' rel='noopener noreferrer' href='http://meetup.com/js-montreal'>meetup.com</a></li>
@@ -16,7 +16,7 @@ export default (props) => (
         <li className='email'><a target='_blank' rel='noopener noreferrer' href='mailto:contact@js-montreal.org'>Email us</a></li>
       </ul>
     </div>
-    <div style={{ flex: 'auto' }}>
+    <div style={{ flex: '1 1 0' }}>
       <h4>User Groups</h4>
       <ul className='list-unstyled'>
         <li>
@@ -33,7 +33,7 @@ export default (props) => (
         </li>
       </ul>
     </div>
-    <div style={{ flex: 'auto' }}>
+    <div style={{ flex: '1 1 0' }}>
       <h4>Special thanks to</h4>
       <ul className='list-unstyled'>
         <li>
