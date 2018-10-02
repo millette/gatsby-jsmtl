@@ -1,9 +1,12 @@
+// npm
 import React from 'react'
 
-import { Map, Footer } from '../components'
+// self
+import { Map, Footer, Nav } from '../components'
 
 export default (props) => (
   <div>
+    <Nav />
     <p>Hello JS-Montréal World!</p>
     <Map />
     <Footer />

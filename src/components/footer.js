@@ -1,9 +1,11 @@
+// npm
 import React from 'react'
 
+// self
 import img from '../files/img/gare-sticky-blue.png'
 
 export default (props) => (
-  <div style={{display: "flex"}}>
+  <div style={{ display: "flex" }}>
     <div style={{ flex: "auto" }}>
       <h4>Contact</h4>
       <ul className="list-unstyled contact">
