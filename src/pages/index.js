@@ -1,7 +1,11 @@
 import React from 'react'
 
+import { Map, Footer } from '../components'
+
 export default (props) => (
   <div>
-    Hello JS-Montréal World!
+    <p>Hello JS-Montréal World!</p>
+    <Map />
+    <Footer />
   </div>
 )
