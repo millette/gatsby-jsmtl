@@ -19,7 +19,7 @@ export default (props) => (
       <div className='row'>
         <div className='col-md-12'>
           <h1>
-            <Link href='/'>js-montreal</Link><br />
+            <Link to='/'>js-montreal</Link><br />
             <small>Montreal's JavaScript User Group</small>
           </h1>
         </div>
