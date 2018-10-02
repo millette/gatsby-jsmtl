@@ -1,7 +1,7 @@
 // npm
 import React from 'react'
 
-export default (props) => (
+export default ({ no }) => !no && (
   <div>
     <h2>Location<br />
       <small>
