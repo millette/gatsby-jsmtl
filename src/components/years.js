@@ -10,7 +10,7 @@ export default ({ first, last }) => (
     <ul>
       {yearRange(first, last).map((year) => (
         <li key={`archive-${year}`}>
-          <Link to={`/archive/${year}`}>
+          <Link to={`/archive/${year}/`}>
             {year}
           </Link>
         </li>
