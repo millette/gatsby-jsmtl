@@ -1,18 +1,10 @@
+// self
+const { name } = require('./package.json')
+
 const cwd = process.cwd()
 
 module.exports = {
-  /*
-  pathPrefix: '/gatsby-starter-location-github',
-  siteMetadata: {
-    siteUrl: 'http://dev.rollodeqc.com/',
-    title: 'RoLLodeQc',
-    description: 'Votre source de développeurs locaux',
-    version: ret,
-    language: {
-      fallback: 'en'
-    }
-  },
-  */
+  pathPrefix: `/${name}`,
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
