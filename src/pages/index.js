@@ -12,34 +12,32 @@ const date = (dateStr) => {
   return new Date(year, month, day, 12).toDateString()
 }
 
-export default ({ data: { allMeetupsJson: { totalCount, edges } } }) => {
-  const { num, title, on, blurb, speakers, specialevent } = edges[0].node
-  return (
-    <div style={{ padding: '1rem' }}>
-      <Nav />
-      <p>We've had {totalCount} meetups so far!</p>
-      <h2>#{num} {title} on <small>{date(on)}</small></h2>
+export default ({ data: { allMeetupsJson: { totalCount, edges: [{ node: { blurb, specialevent, num, title, on, speakers } }] } } }) => (
+  <div style={{ padding: '1rem' }}>
+    <Nav />
+    <p>We've had {totalCount} meetups so far!</p>
+    <div key={`num-${num}`}>
+      <h2 style={{ marginBottom: 0 }}>#{num} {title} on <small>{date(on)}</small></h2>
       <p>{blurb}</p>
       {specialevent && specialevent.publicURL && <a href={specialevent.publicURL}>special</a>}
       <div style={{ display: 'flex' }}>
         {speakers.map((speaker, i) => (
-          <Session key={i} {...speaker} />
+          <Session key={`speaker-${num}-${i}`} {...speaker} />
         ))}
       </div>
-      <Map no />
-      <Footer />
     </div>
-  )
-}
+    <Map no />
+    <Footer />
+  </div>
+)
 
 export const query = graphql`
   query {
     allMeetupsJson (
       limit: 1
-      skip: 0
       sort: {
         fields: [num]
-        order: ASC
+        order: DESC
       }
     ) {
       totalCount

@@ -4,7 +4,7 @@ import React from 'react'
 // self
 import img from '../files/img/gare-sticky-blue.png'
 
-export default (props) => (
+export default () => (
   <div style={{ display: 'flex' }}>
     <div style={{ flex: '1 1 0' }}>
       <h4>Contact</h4>
