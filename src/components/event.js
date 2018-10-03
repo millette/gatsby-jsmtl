@@ -12,7 +12,7 @@ export default ({ num, title, on, blurb, specialevent, speakers }) => (
     {specialevent && specialevent.publicURL && <a href={specialevent.publicURL}>special</a>}
     <div style={{ display: 'flex' }}>
       {speakers.map((speaker, i) => (
-        <Session key={`speaker-${num}-${i}`} {...speaker} />
+        <Session id={`speaker-${num}-${i}`} key={`speaker-${num}-${i}`} {...speaker} />
       ))}
     </div>
   </div>
