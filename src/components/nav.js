@@ -11,6 +11,7 @@ export default () => (
         <ul className='nav-simple' style={{ padding: 0, margin: 0, listStyle: 'none', display: 'flex' }}>
           <li style={{ flex }}><Link to='/'>Home</Link></li>
           <li style={{ flex }}><Link to='/archive'>Archive</Link></li>
+          <li style={{ flex }}><Link to='/archive-orig'>Archive (2018/full)</Link></li>
           <li style={{ flex }}><Link to='/presenter'>Present</Link></li>
           <li style={{ flex }}><Link to='/about'>About</Link></li>
           <li style={{ flex }}><a target='_blank' rel='noopener noreferrer' href='http://www.meetup.com/js-montreal/messages/boards/thread/48462382'>Jobs</a></li>
