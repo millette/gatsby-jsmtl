@@ -54,11 +54,6 @@ export const query = graphql`
       totalCount
       edges {
         node {
-          singleSession
-          specialevent {
-            relativePath
-            publicURL
-          }
           num
           title
           on
@@ -70,7 +65,6 @@ export const query = graphql`
             synopsis
           }
           blurb
-          singleSession
         }
       }
     }
