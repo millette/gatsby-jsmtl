@@ -3,13 +3,7 @@ import React from 'react'
 
 // self
 import { Session } from '.'
-
-const date = (dateStr) => {
-  const year = parseInt(dateStr.slice(0, 4), 10)
-  const month = parseInt(dateStr.slice(4, 6), 10) - 1
-  const day = parseInt(dateStr.slice(6, 8), 10)
-  return new Date(year, month, day, 12).toDateString()
-}
+import { date } from '../utils'
 
 export default ({ num, title, on, blurb, specialevent, speakers }) => (
   <div key={`num-${num}`}>
