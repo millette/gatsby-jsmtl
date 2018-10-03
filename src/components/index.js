@@ -5,6 +5,7 @@ import Nav from './nav'
 import Session from './session'
 import Layout from './layout'
 import Event from './event'
+import Years from './years'
 
 export {
   Map,
@@ -12,5 +13,6 @@ export {
   Nav,
   Session,
   Layout,
-  Event
+  Event,
+  Years
 }
