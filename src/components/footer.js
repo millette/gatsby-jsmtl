@@ -12,7 +12,7 @@ export default () => (
       <ul className='list-unstyled contact'>
         <li className='meetup'><External url='http://meetup.com/js-montreal' title='meetup.com' /></li>
         <li className='facebook'><External url='https://www.facebook.com/groups/253683934748003/' title='facebook group' /></li>
-        <li className='linkedin'><External url='http://www.linkedin.com/groups?gid=2514289' title='js-montreal.org' /></li>
+        <li className='linkedin'><External url='http://www.linkedin.com/groups?gid=2514289' title='on linkedin' /></li>
         <li className='twitter'><External url='http://www.twitter.com/jsmontreal' title='@jsmontreal' /></li>
         <li className='email'><External url='mailto:contact@js-montreal.org' title='Email us' /></li>
       </ul>
