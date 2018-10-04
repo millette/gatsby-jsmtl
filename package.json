@@ -1,5 +1,5 @@
 {
-  "name": "docpad.js-montreal.org",
+  "name": "gatsby-jsmtl",
   "version": "0.10.0",
   "description": "JavaScript Montreal Website, Gatsby version",
   "keywords": [
@@ -7,7 +7,7 @@
     "javascript",
     "js-montreal"
   ],
-  "repository": "https://github.com/millette/docpad.js-montreal.git",
+  "repository": "https://github.com/millette/gatsby-jsmtl.git",
   "author": "Robin Millette <robin@millette.info>",
   "license": "MIT",
   "engines": {

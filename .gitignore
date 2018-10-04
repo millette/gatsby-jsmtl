@@ -1,8 +1,3 @@
 node_modules/
-out/
-src/files/vendor/twitter-bootstrap
-.DS_Store
-*.sublime-*
-.docpad.db
 public
 .cache
