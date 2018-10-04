@@ -3,33 +3,34 @@ import React from 'react'
 
 // self
 import img from '../files/img/gare-sticky-blue.png'
+import { External } from '.'
 
 export default () => (
   <div style={{ display: 'flex' }}>
     <div style={{ flex: '1 1 0' }}>
       <h4>Contact</h4>
       <ul className='list-unstyled contact'>
-        <li className='meetup'><a target='_blank' rel='noopener noreferrer' href='http://meetup.com/js-montreal'>meetup.com</a></li>
-        <li className='facebook'><a target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/groups/253683934748003/'>facebook group</a></li>
-        <li className='linkedin'><a target='_blank' rel='noopener noreferrer' href='http://www.linkedin.com/groups?gid=2514289'>js-montreal.org</a></li>
-        <li className='twitter'><a target='_blank' rel='noopener noreferrer' href='http://www.twitter.com/jsmontreal'>@jsmontreal</a></li>
-        <li className='email'><a target='_blank' rel='noopener noreferrer' href='mailto:contact@js-montreal.org'>Email us</a></li>
+        <li className='meetup'><External url='http://meetup.com/js-montreal' title='meetup.com' /></li>
+        <li className='facebook'><External url='https://www.facebook.com/groups/253683934748003/' title='facebook group' /></li>
+        <li className='linkedin'><External url='http://www.linkedin.com/groups?gid=2514289' title='js-montreal.org' /></li>
+        <li className='twitter'><External url='http://www.twitter.com/jsmontreal' title='@jsmontreal' /></li>
+        <li className='email'><External url='mailto:contact@js-montreal.org' title='Email us' /></li>
       </ul>
     </div>
     <div style={{ flex: '1 1 0' }}>
       <h4>User Groups</h4>
       <ul className='list-unstyled'>
         <li>
-          <a target='_blank' rel='noopener noreferrer' href='http://gtugmontreal.blogspot.ca'>GDG Montreal</a>
+          <External url='http://gtugmontreal.blogspot.ca' title='GDG Montreal' />
         </li>
         <li>
-          <a target='_blank' rel='noopener noreferrer' href='http://www.montrealonrails.com/'>montreal.rb</a>
+          <External url='http://www.montrealonrails.com/' title='montreal.rb' />
         </li>
         <li>
-          <a target='_blank' rel='noopener noreferrer' href='http://www.phpquebec.org/'>php quebec</a>
+          <External url='http://www.phpquebec.org/' title='php quebec' />
         </li>
         <li>
-          <a target='_blank' rel='noopener noreferrer' href='http://montrealpython.org/'>mtl python</a>
+          <External url='http://montrealpython.org/' title='mtl python' />
         </li>
       </ul>
     </div>
@@ -37,7 +38,7 @@ export default () => (
       <h4>Special thanks to</h4>
       <ul className='list-unstyled'>
         <li>
-          <a target='_blank' rel='noopener noreferrer' href='https://garemtl.com/en/'><img alt='La Gare' src={img} width='100' /></a>
+          <External url='https://garemtl.com/en/' title={<img alt='La Gare' src={img} width='100' />} />
         </li>
       </ul>
     </div>

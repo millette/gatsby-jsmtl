@@ -6,6 +6,7 @@ import Session from './session'
 import Layout from './layout'
 import Event from './event'
 import Years from './years'
+import External from './external'
 
 export {
   Map,
@@ -14,5 +15,6 @@ export {
   Session,
   Layout,
   Event,
-  Years
+  Years,
+  External
 }
