@@ -63,6 +63,10 @@ export const query = graphql`
             url
             email
             synopsis
+            links {
+              url
+              title
+            }
           }
           blurb
         }
