@@ -9,7 +9,7 @@ export default ({ data: { allMeetupsJson: { totalCount, edges: [{ node }] } } })
   <Layout>
     <p>We've had {totalCount} meetups so far!</p>
     <Event {...node} />
-    <Map no />
+    <Map />
   </Layout>
 )
 
