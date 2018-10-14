@@ -23,7 +23,7 @@
     "clean": "rm public/* .cache -fr"
   },
   "dependencies": {
-    "gatsby": "^2.0.21",
+    "gatsby": "^2.0.22",
     "gatsby-source-filesystem": "^2.0.3",
     "gatsby-transformer-json": "^2.1.4",
     "react": "^16.5.2",
